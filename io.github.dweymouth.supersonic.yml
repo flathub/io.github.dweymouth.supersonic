@@ -1,10 +1,6 @@
-# example flatpaks:
+# example flatpaks this was inspired from:
 # https://github.com/search?q=org%3Aflathub+golang+&type=code
 # https://github.com/search?q=org%3Aflathub+mpv&type=code
-#
-# followup on:
-# https://discourse.flathub.org/t/supersonic-lightweight-cross-platform-desktop-client-for-subsonic-music-servers/3984/2
-# https://github.com/dweymouth/supersonic/issues/86
 app-id: io.github.dweymouth.supersonic
 runtime: org.freedesktop.Platform
 runtime-version: '22.08'
@@ -221,5 +217,6 @@ modules:
       # see https://github.com/dweymouth/supersonic/issues/132
       - type: file
         path: io.github.dweymouth.supersonic.png
+      # submitted upstream, see https://github.com/dweymouth/supersonic/issues/133
       - type: file
         path: io.github.dweymouth.supersonic.appdata.xml
