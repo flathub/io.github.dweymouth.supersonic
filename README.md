@@ -26,7 +26,6 @@ required for running, of course.
 The following changes were required on the package to please the
 Flatpak gods and have been submitted upstream:
 
- * `io.github.dweymouth.supersonic.png`: [standard icon size](https://github.com/dweymouth/supersonic/issues/133)
  * `io.github.dweymouth.supersonic.appdata.xml`: [appstream data file](https://github.com/dweymouth/supersonic/issues/133)
 
 The remaining files are Golang-specific metadata information that is
@@ -39,13 +38,6 @@ To regenerate the modules list, run this against your supersonic
 source tree (e.g. `~/dist/supersonic` below):
 
     go run github.com/dennwc/flatpak-go-mod@latest ~/dist/supersonic
-
-The icon was generated with ImageMagick from the upstream `1040x1040`
-icon using:
-
-    convert ~/dist/supersonic/res/appicon.png -resize 512x512 io.github.dweymouth.supersonic.png
-
-This was filed upstream as: https://github.com/dweymouth/supersonic/issues/132
 
 ### Digression
 
