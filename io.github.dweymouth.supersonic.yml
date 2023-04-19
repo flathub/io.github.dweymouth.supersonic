@@ -199,11 +199,11 @@ modules:
       # io.mpv.Mpv has a neat trick to automatically update the
       # version too, see:
       # https://github.com/flathub/io.mpv.Mpv/blob/master/io.mpv.Mpv.yml#L606-L617
-      - install -Dm644 $FLATPAK_ID.appdata.xml /app/share/appdata/$FLATPAK_ID.appdata.xml
+      - install -Dm644 res/$FLATPAK_ID.appdata.xml /app/share/appdata/$FLATPAK_ID.appdata.xml
     sources:
       - type: git
         url: https://github.com/dweymouth/supersonic/
-        commit: 3fbf53279f68a9e2ac9a7eff90400b4f34934140
+        commit: 87804770256f9d8251e88526f0027e6d0f970cce
         x-checker-data:
           type: git
           # taken from Debian's uscan(1) @ANY_VERSION@ pattern,
@@ -214,6 +214,3 @@ modules:
         path: modules.txt
         dest: vendor
       - go.mod.yml
-      # submitted upstream, see https://github.com/dweymouth/supersonic/issues/133
-      - type: file
-        path: io.github.dweymouth.supersonic.appdata.xml
