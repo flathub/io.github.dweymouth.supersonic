@@ -23,10 +23,8 @@ required for running, of course.
 
 ## Divergence from upstream
 
-The following changes were required on the package to please the
-Flatpak gods and have been submitted upstream:
-
- * `io.github.dweymouth.supersonic.appdata.xml`: [appstream data file](https://github.com/dweymouth/supersonic/issues/133)
+Some changes were originally required from upstream but have all been
+merged, thanks!
 
 The remaining files are Golang-specific metadata information that is
 required to create the sources list that allows the package to be
@@ -81,3 +79,5 @@ source](https://github.com/dennwc/flatpak-go-mod/blob/af6ec8b977f3ba97b8d8f0b022
  * [Build bot page](https://buildbot.flathub.org/#/apps/io.github.dweymouth.supersonic): where you can see the latest builds for this
    app
  * [App maintenance guide](https://github.com/flathub/flathub/wiki/App-Maintenance): how to maintain this
+ * [External data checker](https://github.com/flathub/flatpak-external-data-checker): how new updates are automatically
+   submitted here by @flathubbot
