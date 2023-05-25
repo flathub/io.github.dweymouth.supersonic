@@ -60,7 +60,7 @@ github.com/davecgh/go-spew/spew
 # github.com/dweymouth/go-mpv v0.0.0-20230406003141-7f1858e503ee
 ## explicit
 github.com/dweymouth/go-mpv
-# github.com/dweymouth/go-subsonic v0.0.0-20230210044542-537b9238299b
+# github.com/dweymouth/go-subsonic v0.0.0-20230513020020-0790f53c2868
 ## explicit; go 1.13
 github.com/dweymouth/go-subsonic/subsonic
 # github.com/fredbi/uri v0.1.0
