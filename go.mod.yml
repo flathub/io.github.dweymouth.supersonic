@@ -10,6 +10,12 @@
   sha256: e5595952fd22b9c3d945225ce449404f016261280515fdd4d364f1abe0a1e1c9
 
 - type: archive
+  url: https://proxy.golang.org/fyne.io/x/fyne/@v/v0.0.0-20230611151101-afdcd6b92cf3.zip
+  strip-components: 3
+  dest: vendor/fyne.io/x/fyne
+  sha256: cedafd34df34ab7ec45b061ac25f5df0fa2ded05d6adfacc1aaff99fb6201a85
+
+- type: archive
   url: https://proxy.golang.org/github.com/20after4/configdir/@v/v0.1.1.zip
   strip-components: 3
   dest: vendor/github.com/20after4/configdir
@@ -22,10 +28,16 @@
   sha256: c3060358e7d6e5027edb8d61f0a101de6e4930e3ad378023444dc10afc6cb484
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20230513020020-0790f53c2868.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20230614154319-792d18c75fb4.zip
   strip-components: 3
   dest: vendor/github.com/dweymouth/go-subsonic
-  sha256: afb80703232613301b4c9e1821d14f84347dec8de339e88793260d155e952b81
+  sha256: 55b35e846a9cb15dd6d7129410486b047e6bcc48ee75c983ab30bba34ae326ad
+
+- type: archive
+  url: https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.6.0.zip
+  strip-components: 3
+  dest: vendor/github.com/fsnotify/fsnotify
+  sha256: 7d4408f12ffc38106e358244446851a28077ed80e3c0940e98e0e332b3ed43ab
 
 - type: archive
   url: https://proxy.golang.org/github.com/google/uuid/@v/v1.3.0.zip
@@ -34,10 +46,10 @@
   sha256: 0a5fcc05ea492afeaca984a012485f6a15e2259b32f1206d6f36a88c88afc607
 
 - type: archive
-  url: https://proxy.golang.org/github.com/pelletier/go-toml/@v/v1.9.3.zip
-  strip-components: 3
-  dest: vendor/github.com/pelletier/go-toml
-  sha256: a52f4a0d5d8f6e98bbfc493ec947e1be44b8f304005d2059ecc4c5938b712961
+  url: https://proxy.golang.org/github.com/pelletier/go-toml/v2/@v/v2.0.8.zip
+  strip-components: 4
+  dest: vendor/github.com/pelletier/go-toml/v2
+  sha256: 9b1cdae5cf044712d015c82502e5c362a4758c2e686b8d8398f6edbb768a2aa1
 
 - type: archive
   url: https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.1.zip
@@ -52,10 +64,10 @@
   sha256: 1decf7a324a0916bc66304da1b68a834ce679379422de3a2855f3031f6dc39bd
 
 - type: archive
-  url: https://proxy.golang.org/fyne.io/systray/@v/v1.10.1-0.20230403195833-7dc3c09283d6.zip
+  url: https://proxy.golang.org/fyne.io/systray/@v/v1.10.1-0.20230602210930-b6a2d6ca2a7b.zip
   strip-components: 2
   dest: vendor/fyne.io/systray
-  sha256: a8967e83fab1b70bff556dfe37c35aa4e78a5897d03ad7c50afe844c5e655029
+  sha256: b3dce2148ee119872354397fac103bfc4e8bbfd57f22c1a3065a58abfe509425
 
 - type: archive
   url: https://proxy.golang.org/github.com/alessio/shellescape/@v/v1.4.1.zip
@@ -80,12 +92,6 @@
   strip-components: 3
   dest: vendor/github.com/fredbi/uri
   sha256: d4b018ea271e7a17edb474e204ebda245499ec90f366cfa1bf517d54a4c1614d
-
-- type: archive
-  url: https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.5.4.zip
-  strip-components: 3
-  dest: vendor/github.com/fsnotify/fsnotify
-  sha256: b165ac3116d368bad33e4f433ede8bdbcd59fac8fe22e117300e59d0cfd747c1
 
 - type: archive
   url: https://proxy.golang.org/github.com/fyne-io/gl-js/@v/v0.0.0-20220119005834-d2da28d9ccfe.zip
@@ -148,6 +154,12 @@
   sha256: e142254da53879079ac599aec157ced1fae5e59d3e0e754303f4f5a0219a9b9d
 
 - type: archive
+  url: https://proxy.golang.org/github.com/nfnt/resize/@v/v0.0.0-20180221191011-83c6a9932646.zip
+  strip-components: 3
+  dest: vendor/github.com/nfnt/resize
+  sha256: b8e97cb14e5e5ef29d762d2dff890f6279a125990ddf9cb7ae5c4d2a015b109c
+
+- type: archive
   url: https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.zip
   strip-components: 3
   dest: vendor/github.com/pmezard/go-difflib
@@ -166,10 +178,10 @@
   sha256: 73ece9286c5a7d75924bbf2bb2151fe4690257d4a26055ad68cdc12253ca3469
 
 - type: archive
-  url: https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.0.zip
+  url: https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.3.zip
   strip-components: 3
   dest: vendor/github.com/stretchr/testify
-  sha256: d880adf449449120b459a2220f539c69648fd797ded5b745cf3add60ec84081e
+  sha256: a4bf8c814b7dc03e7d2a4b76fc0f686e38f0c6b98fc61afe4422f05983779528
 
 - type: archive
   url: https://proxy.golang.org/github.com/tevino/abool/@v/v1.2.0.zip
@@ -196,10 +208,10 @@
   sha256: 80496a4bb1ab0696f09a5c8e14a1d652e2f7dee0fd69190391f0816e0eab836c
 
 - type: archive
-  url: https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.zip
+  url: https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220908164124-27713097b956.zip
   strip-components: 3
   dest: vendor/golang.org/x/sys
-  sha256: f4480597a942160a2aaeb761d41ee67f610287785c263f1df253a3e157c98594
+  sha256: f5cb8af12b6b27844ea699d3bbeeaf5afad67637f67b7dc577595e2f300a3aed
 
 - type: archive
   url: https://proxy.golang.org/golang.org/x/text/@v/v0.6.0.zip
