@@ -145,6 +145,12 @@ github.com/pelletier/go-toml/v2/unstable
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
+# github.com/quarckster/go-mpris-server v1.0.2
+## explicit; go 1.18
+github.com/quarckster/go-mpris-server/internal
+github.com/quarckster/go-mpris-server/pkg/events
+github.com/quarckster/go-mpris-server/pkg/server
+github.com/quarckster/go-mpris-server/pkg/types
 # github.com/srwiley/oksvg v0.0.0-20220731023508-a61f04f16b76
 ## explicit; go 1.17
 github.com/srwiley/oksvg
