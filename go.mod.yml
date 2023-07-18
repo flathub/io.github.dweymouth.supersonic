@@ -40,6 +40,12 @@
   sha256: 7d4408f12ffc38106e358244446851a28077ed80e3c0940e98e0e332b3ed43ab
 
 - type: archive
+  url: https://proxy.golang.org/github.com/godbus/dbus/v5/@v/v5.1.0.zip
+  strip-components: 4
+  dest: vendor/github.com/godbus/dbus/v5
+  sha256: 03dfa8e71089a6f477310d15c4d3a036d82d028532881b50fee254358e782ad9
+
+- type: archive
   url: https://proxy.golang.org/github.com/google/uuid/@v/v1.3.0.zip
   strip-components: 3
   dest: vendor/github.com/google/uuid
@@ -50,6 +56,12 @@
   strip-components: 4
   dest: vendor/github.com/pelletier/go-toml/v2
   sha256: 9b1cdae5cf044712d015c82502e5c362a4758c2e686b8d8398f6edbb768a2aa1
+
+- type: archive
+  url: https://proxy.golang.org/github.com/quarckster/go-mpris-server/@v/v1.0.2.zip
+  strip-components: 3
+  dest: vendor/github.com/quarckster/go-mpris-server
+  sha256: bfab58bdbf8111d8ec9ca015282e2739499575900522358ed43c0be82166314e
 
 - type: archive
   url: https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.1.zip
@@ -128,12 +140,6 @@
   strip-components: 3
   dest: vendor/github.com/go-text/typesetting
   sha256: 776d64fcb956f8c94904cee4d827c35d4513afc50f1530cf0b08b9c617fac80c
-
-- type: archive
-  url: https://proxy.golang.org/github.com/godbus/dbus/v5/@v/v5.1.0.zip
-  strip-components: 4
-  dest: vendor/github.com/godbus/dbus/v5
-  sha256: 03dfa8e71089a6f477310d15c4d3a036d82d028532881b50fee254358e782ad9
 
 - type: archive
   url: https://proxy.golang.org/github.com/goki/freetype/@v/v0.0.0-20220119013949-7a161fd3728c.zip
