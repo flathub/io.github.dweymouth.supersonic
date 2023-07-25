@@ -52,16 +52,15 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   ## Required for tray icons on KDE
   - --own-name=org.kde.*
+  # MPRIS2 support
+  ## cargo-cult from io.mpv.Mpv and org.videolan.VLC
+  - --talk-name=org.mpris.MediaPlayer2.Player
+  - --own-name=org.mpris.MediaPlayer2.supersonic
   #
-  # might be useful for media keys when upstream supports it, see:
-  # https://github.com/dweymouth/supersonic/issues/56
-  # https://github.com/dweymouth/supersonic/issues/75
+  # maybe this would be necessary once media keys are fully supported
+  # on their own: https://github.com/dweymouth/supersonic/issues/56
   ## cargo-cult from https://github.com/flathub/com.github.iwalton3.jellyfin-mpv-shim/blob/master/com.github.iwalton3.jellyfin-mpv-shim.json
   ##- --talk-name=org.gnome.SettingsDaemon.MediaKeys
-  ## cargo-cult from io.mpv.Mpv
-  ## mpris support via dbus
-  #- --own-name=org.mpris.MediaPlayer2.mpv.*
-  #- --talk-name=org.gnome.SessionManager
 
 modules:
   # TODO: consider using io.mpv.Mpv as a "base app" instead, see
