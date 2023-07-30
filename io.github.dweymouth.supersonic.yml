@@ -51,7 +51,7 @@ finish-args:
   # MPRIS2 support
   ## cargo-cult from io.mpv.Mpv and org.videolan.VLC
   - --talk-name=org.mpris.MediaPlayer2.Player
-  - --own-name=org.mpris.MediaPlayer2.supersonic
+  - --own-name=org.mpris.MediaPlayer2.Supersonic
   #
   # maybe this would be necessary once media keys are fully supported
   # on their own: https://github.com/dweymouth/supersonic/issues/56
