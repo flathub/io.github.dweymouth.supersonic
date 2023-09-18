@@ -28,10 +28,10 @@
   sha256: c3060358e7d6e5027edb8d61f0a101de6e4930e3ad378023444dc10afc6cb484
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20230614154319-792d18c75fb4.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20230916175103-b0c94e70225a.zip
   strip-components: 3
   dest: vendor/github.com/dweymouth/go-subsonic
-  sha256: 55b35e846a9cb15dd6d7129410486b047e6bcc48ee75c983ab30bba34ae326ad
+  sha256: d3624b1092c48d1ac5e2f25ec934f2b7cedb8deca75f8481e136227ebf4b833f
 
 - type: archive
   url: https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.6.0.zip
@@ -58,10 +58,10 @@
   sha256: 9b1cdae5cf044712d015c82502e5c362a4758c2e686b8d8398f6edbb768a2aa1
 
 - type: archive
-  url: https://proxy.golang.org/github.com/quarckster/go-mpris-server/@v/v1.0.2.zip
+  url: https://proxy.golang.org/github.com/quarckster/go-mpris-server/@v/v1.0.3.zip
   strip-components: 3
   dest: vendor/github.com/quarckster/go-mpris-server
-  sha256: bfab58bdbf8111d8ec9ca015282e2739499575900522358ed43c0be82166314e
+  sha256: d928001e516f985d1ffb30a630a73ff186b30053978802e2c8ab3036114c33c0
 
 - type: archive
   url: https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.1.zip
