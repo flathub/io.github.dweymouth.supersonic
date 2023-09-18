@@ -63,7 +63,7 @@ github.com/davecgh/go-spew/spew
 # github.com/dweymouth/go-mpv v0.0.0-20230406003141-7f1858e503ee
 ## explicit
 github.com/dweymouth/go-mpv
-# github.com/dweymouth/go-subsonic v0.0.0-20230614154319-792d18c75fb4
+# github.com/dweymouth/go-subsonic v0.0.0-20230916175103-b0c94e70225a
 ## explicit; go 1.13
 github.com/dweymouth/go-subsonic/subsonic
 # github.com/fredbi/uri v0.1.0
@@ -145,7 +145,7 @@ github.com/pelletier/go-toml/v2/unstable
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
-# github.com/quarckster/go-mpris-server v1.0.2
+# github.com/quarckster/go-mpris-server v1.0.3
 ## explicit; go 1.18
 github.com/quarckster/go-mpris-server/internal
 github.com/quarckster/go-mpris-server/pkg/events
