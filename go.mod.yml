@@ -4,10 +4,10 @@
   dest: vendor
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20230505012127-ca61c153b2a5.zip
+  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20231019154213-5f32d36c2968.zip
   strip-components: 4
   dest: vendor/fyne.io/fyne/v2
-  sha256: e5595952fd22b9c3d945225ce449404f016261280515fdd4d364f1abe0a1e1c9
+  sha256: e671dc2ba85e5de28d5720c7ee31b0c53ba49532da2b278cc9fdf968fb784deb
 
 - type: archive
   url: https://proxy.golang.org/fyne.io/x/fyne/@v/v0.0.0-20230611151101-afdcd6b92cf3.zip
@@ -28,10 +28,10 @@
   sha256: c3060358e7d6e5027edb8d61f0a101de6e4930e3ad378023444dc10afc6cb484
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20230916175103-b0c94e70225a.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20231014003317-6a0c88db38ce.zip
   strip-components: 3
   dest: vendor/github.com/dweymouth/go-subsonic
-  sha256: d3624b1092c48d1ac5e2f25ec934f2b7cedb8deca75f8481e136227ebf4b833f
+  sha256: d8234dac69e404b38c79a2f204ccb7f29a711e839210be97ae6817c1e8e83e00
 
 - type: archive
   url: https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.6.0.zip
