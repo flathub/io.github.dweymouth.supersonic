@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.4.1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20231107021019-f3544c1b10cf
+# fyne.io/fyne/v2 v2.4.1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20231110162149-a0e470497555
 ## explicit; go 1.17
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -61,10 +61,13 @@ github.com/davecgh/go-spew/spew
 # github.com/deluan/sanitize v0.0.0-20230310221930-6e18967d9fc1
 ## explicit; go 1.17
 github.com/deluan/sanitize
+# github.com/dweymouth/go-jellyfin v0.0.0-20231115024427-f39ad02e465a
+## explicit; go 1.17
+github.com/dweymouth/go-jellyfin
 # github.com/dweymouth/go-mpv v0.0.0-20230406003141-7f1858e503ee
 ## explicit
 github.com/dweymouth/go-mpv
-# github.com/dweymouth/go-subsonic v0.0.0-20231105161622-54b5aec28363
+# github.com/dweymouth/go-subsonic v0.0.0-20231115012731-a3d1f90274c1
 ## explicit; go 1.13
 github.com/dweymouth/go-subsonic/subsonic
 # github.com/fredbi/uri v1.0.0
@@ -171,7 +174,7 @@ github.com/yuin/goldmark/util
 ## explicit; go 1.13
 github.com/zalando/go-keyring
 github.com/zalando/go-keyring/secret_service
-# golang.org/x/image v0.13.0
+# golang.org/x/image v0.14.0
 ## explicit; go 1.18
 golang.org/x/image/ccitt
 golang.org/x/image/colornames
@@ -200,8 +203,8 @@ golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
-# golang.org/x/text v0.13.0
-## explicit; go 1.17
+# golang.org/x/text v0.14.0
+## explicit; go 1.18
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/htmlindex
