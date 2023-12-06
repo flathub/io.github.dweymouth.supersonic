@@ -117,6 +117,21 @@ modules:
           - /include
           - /lib/pkgconfig
           - /share
+      - name: libplacebo
+        buildsystem: meson
+        cleanup:
+          - /include
+          - /lib/pkgconfig
+        sources:
+          - type: git
+            url: https://code.videolan.org/videolan/libplacebo.git
+            mirror-urls:
+              - https://github.com/haasn/libplacebo.git
+            tag: v6.338.1
+            commit: 2805a0d01c029084ab36bf5d0e3c8742012a0b27
+            x-checker-data:
+              type: git
+              tag-pattern: ^v([\d.]+)$
       - name: ffmpeg
         cleanup:
           - /include
