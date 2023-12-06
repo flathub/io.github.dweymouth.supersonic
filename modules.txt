@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.4.1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20231110162149-a0e470497555
+# fyne.io/fyne/v2 v2.4.1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20231123175732-3df0aca47d36
 ## explicit; go 1.17
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -41,7 +41,7 @@ fyne.io/fyne/v2/storage/repository
 fyne.io/fyne/v2/test
 fyne.io/fyne/v2/theme
 fyne.io/fyne/v2/widget
-# fyne.io/systray v1.10.1-0.20230722100817-88df1e0ffa9a
+# fyne.io/systray v1.10.1-0.20231115130155-104f5ef7839e
 ## explicit; go 1.13
 fyne.io/systray
 fyne.io/systray/internal/generated/menu
@@ -61,7 +61,7 @@ github.com/davecgh/go-spew/spew
 # github.com/deluan/sanitize v0.0.0-20230310221930-6e18967d9fc1
 ## explicit; go 1.17
 github.com/deluan/sanitize
-# github.com/dweymouth/go-jellyfin v0.0.0-20231115024427-f39ad02e465a
+# github.com/dweymouth/go-jellyfin v0.0.0-20231116161116-e800860bdacc
 ## explicit; go 1.17
 github.com/dweymouth/go-jellyfin
 # github.com/dweymouth/go-mpv v0.0.0-20230406003141-7f1858e503ee
@@ -191,15 +191,14 @@ golang.org/x/image/webp
 # golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda
 ## explicit; go 1.17
 golang.org/x/mobile/exp/f32
-# golang.org/x/net v0.14.0
+# golang.org/x/net v0.17.0
 ## explicit; go 1.17
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/html/charset
-# golang.org/x/sys v0.11.0
+# golang.org/x/sys v0.13.0
 ## explicit; go 1.17
 golang.org/x/sys/execabs
-golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
