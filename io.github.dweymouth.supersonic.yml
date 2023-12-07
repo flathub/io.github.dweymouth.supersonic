@@ -84,6 +84,7 @@ modules:
       - -Dsdl2=disabled
       - -Dshaderc=disabled
       - -Dvulkan=disabled
+      - -Dspirv-cross=disabled
     cleanup:
       - /include
       - /lib/pkgconfig
