@@ -1,0 +1,3 @@
+[submodule "io.mpv.Mpv"]
+	path = io.mpv.Mpv
+	url = https://github.com/flathub/io.mpv.Mpv
