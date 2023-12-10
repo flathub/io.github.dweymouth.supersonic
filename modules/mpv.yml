@@ -34,6 +34,10 @@ modules:
   - name: libass
     config-opts:
       - --disable-static
+    cleanup:
+      - /include
+      - /lib/pkgconfig
+      - /share
     sources:
       - type: archive
         url: https://github.com/libass/libass/releases/download/0.17.1/libass-0.17.1.tar.xz
@@ -47,10 +51,6 @@ modules:
         commands:
           - autoreconf -fiv
         dest-filename: autogen.sh
-    cleanup:
-      - /include
-      - /lib/pkgconfig
-      - /share
   - name: libplacebo
     buildsystem: meson
     cleanup:
