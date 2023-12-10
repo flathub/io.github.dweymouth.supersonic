@@ -20,6 +20,8 @@ config-opts:
 cleanup:
   - /include
   - /lib/pkgconfig
+  - '*.la'
+  - '*.a'
 sources:
   - type: archive
     url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz
@@ -38,6 +40,8 @@ modules:
       - /include
       - /lib/pkgconfig
       - /share
+      - '*.la'
+      - '*.a'
     sources:
       - type: archive
         url: https://github.com/libass/libass/releases/download/0.17.1/libass-0.17.1.tar.xz
@@ -56,6 +60,8 @@ modules:
     cleanup:
       - /include
       - /lib/pkgconfig
+      - '*.la'
+      - '*.a'
     config-opts:
       - -Dd3d11=disabled
       - -Ddemos=False
@@ -110,6 +116,8 @@ modules:
           - /include
           - /lib/cmake
           - /lib/pkgconfig
+          - '*.la'
+          - '*.a'
         sources:
           - type: git
             url: https://github.com/google/shaderc.git
@@ -149,6 +157,8 @@ modules:
       - /include
       - /lib/pkgconfig
       - /share/ffmpeg/examples
+      - '*.la'
+      - '*.a'
     config-opts:
     # this is almost like io.mpv.Mpv, except we removed:
     # --enable-libbs2b
