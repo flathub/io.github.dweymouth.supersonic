@@ -68,6 +68,15 @@ modules:
           project-id: 20101
           stable-only: true
           url-template: https://code.videolan.org/videolan/libplacebo/-/archive/v$version/libplacebo-v$version.tar.gz
+      - type: archive
+        url: https://github.com/Dav1dde/glad/archive/refs/tags/v2.0.4.tar.gz
+        sha256: 02629644c242dcc27c58222bd2c001d5e2f3765dbbcfd796542308bddebab401
+        dest: 3rdparty/glad
+        x-checker-data:
+          type: anitya
+          stable-only: true
+          project-id: 20607
+          url-template: https://github.com/Dav1dde/glad/archive/refs/tags/$version.tar.gz
     modules:
       - name: shaderc
         buildsystem: cmake-ninja
