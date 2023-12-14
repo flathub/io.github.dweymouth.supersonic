@@ -33,6 +33,7 @@ finish-args:
   #
   # audio playback
   - --socket=pulseaudio
+  - --filesystem=xdg-run/pipewire-0:ro
   #
   # Required to store access tokens (persistent logins)
   - --filesystem=xdg-run/keyring
