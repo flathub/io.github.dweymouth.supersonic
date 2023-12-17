@@ -67,7 +67,7 @@ github.com/dweymouth/go-jellyfin
 # github.com/dweymouth/go-mpv v0.0.0-20230406003141-7f1858e503ee
 ## explicit
 github.com/dweymouth/go-mpv
-# github.com/dweymouth/go-subsonic v0.0.0-20231115012731-a3d1f90274c1
+# github.com/dweymouth/go-subsonic v0.0.0-20231216015633-3797c9b3d94d
 ## explicit; go 1.13
 github.com/dweymouth/go-subsonic/subsonic
 # github.com/fredbi/uri v1.0.0
