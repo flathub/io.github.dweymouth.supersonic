@@ -8,7 +8,10 @@ sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
 command: supersonic
-rename-desktop-file: Supersonic.desktop
+# this is actually overriden below, because the upstream desktop file
+# is broken, see:
+# https://github.com/flathub/io.github.dweymouth.supersonic/issues/47#issuecomment-1864804405
+#rename-desktop-file: Supersonic.desktop
 rename-icon: Supersonic
 
 finish-args:
@@ -95,7 +98,10 @@ modules:
       - tar -C /app --strip-components=1 -x -v -f /run/build/supersonic/Supersonic.tar.xz
       - mkdir -p /app/share/icons/hicolor/512x512/apps/
       - mv /app/share/pixmaps/Supersonic.png /app/share/icons/hicolor/512x512/apps/
-      - desktop-file-edit --set-key=Icon --set-value=$FLATPAK_ID /app/share/applications/Supersonic.desktop
+      # broken Fyne-generated desktop file
+      - rm /app/share/applications/Supersonic.desktop
+      - install -Dm644 res/supersonic-desktop.desktop /app/share/applications/$FLATPAK_ID.desktop
+      - desktop-file-edit --set-key=Icon --set-value=$FLATPAK_ID /app/share/applications/$FLATPAK_ID.desktop
       # io.mpv.Mpv has a neat trick to automatically update the
       # version too, see:
       # https://github.com/flathub/io.mpv.Mpv/blob/master/io.mpv.Mpv.yml#L606-L617
@@ -103,8 +109,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/dweymouth/supersonic/
-        commit: becb34cd4a575f2f952046e61fce30e513e2e2c8
-        tag: v0.8.2
+        commit: 61f5f24c4f58f499f6429dcd9d668d4900c46001
+        branch: main
         x-checker-data:
           type: git
           # taken from Debian's uscan(1) @ANY_VERSION@ pattern,

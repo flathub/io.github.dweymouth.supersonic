@@ -34,10 +34,10 @@
   sha256: c3060358e7d6e5027edb8d61f0a101de6e4930e3ad378023444dc10afc6cb484
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20231216015633-3797c9b3d94d.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20231216234924-3f62122dc53a.zip
   strip-components: 3
   dest: vendor/github.com/dweymouth/go-subsonic
-  sha256: 4922efc28762c2ea5f647cac6ea5411e71a458071e17f41c6463ec1a23b72b52
+  sha256: b2284d5414c01e556741ff29395ec7f3a6c95f9949de66b45006fed69124bdac
 
 - type: archive
   url: https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.6.0.zip
