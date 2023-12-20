@@ -33,6 +33,7 @@ finish-args:
   #
   # audio playback
   - --socket=pulseaudio
+  - --filesystem=xdg-run/pipewire-0:ro
   #
   # Required to store access tokens (persistent logins)
   - --filesystem=xdg-run/keyring
@@ -45,123 +46,21 @@ finish-args:
   # access, obviously
   - --share=network
   #
-  # System tray icon doesn't work, but when/if it does, that would be
-  # the way:
   ## Required for notifications in various desktop environments
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
-  ## Required for tray icons on KDE
-  - --own-name=org.kde.*
+  # MPRIS2 support
+  ## cargo-cult from io.mpv.Mpv and org.videolan.VLC
+  - --talk-name=org.mpris.MediaPlayer2.Player
+  - --own-name=org.mpris.MediaPlayer2.Supersonic
   #
-  # might be useful for media keys when upstream supports it, see:
-  # https://github.com/dweymouth/supersonic/issues/56
-  # https://github.com/dweymouth/supersonic/issues/75
+  # maybe this would be necessary once media keys are fully supported
+  # on their own: https://github.com/dweymouth/supersonic/issues/56
   ## cargo-cult from https://github.com/flathub/com.github.iwalton3.jellyfin-mpv-shim/blob/master/com.github.iwalton3.jellyfin-mpv-shim.json
   ##- --talk-name=org.gnome.SettingsDaemon.MediaKeys
-  ## cargo-cult from io.mpv.Mpv
-  ## mpris support via dbus
-  #- --own-name=org.mpris.MediaPlayer2.mpv.*
-  #- --talk-name=org.gnome.SessionManager
 
 modules:
-  # TODO: consider using io.mpv.Mpv as a "base app" instead, see
-  # https://docs.flatpak.org/en/latest/electron.html for how it's done
-  # with electron apps. alternatively, mpv could be a "shared module",
-  # see:
-  # https://docs.flatpak.org/en/latest/manifests.html#shared-modules
-  # https://github.com/flathub/shared-modules
-  - name: mpv
-    buildsystem: meson
-    build-options:
-      cflags: -DNDEBUG=1
-    config-opts:
-      - -Dbuild-date=false
-      - -Dlibmpv=true
-      - -Dmanpage-build=disabled
-      - -Dalsa=enabled
-      - -Dcdda=disabled
-      - -Ddvbin=disabled
-      - -Ddvdnav=disabled
-      - -Djavascript=disabled
-      - -Dlibarchive=disabled
-      - -Dlua=disabled
-      - -Dpulse=enabled
-      - -Dsdl2=disabled
-      - -Dshaderc=disabled
-      - -Dvulkan=disabled
-    cleanup:
-      - /include
-      - /lib/pkgconfig
-    sources:
-      - type: archive
-        url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.35.1.tar.gz
-        sha256: 41df981b7b84e33a2ef4478aaf81d6f4f5c8b9cd2c0d337ac142fc20b387d1a9
-        x-checker-data:
-          type: anitya
-          project-id: 5348
-          stable-only: true
-          url-template: https://github.com/mpv-player/mpv/archive/refs/tags/v$version.tar.gz
-    modules:
-      - name: libass
-        config-opts:
-          - --disable-static
-        sources:
-          - type: archive
-            url: https://github.com/libass/libass/releases/download/0.17.1/libass-0.17.1.tar.xz
-            sha256: f0da0bbfba476c16ae3e1cfd862256d30915911f7abaa1b16ce62ee653192784
-            x-checker-data:
-              type: anitya
-              project-id: 1560
-              stable-only: true
-              url-template: https://github.com/libass/libass/releases/download/$version/libass-$version.tar.xz
-          - type: script
-            commands:
-              - autoreconf -fiv
-            dest-filename: autogen.sh
-        cleanup:
-          - /include
-          - /lib/pkgconfig
-          - /share
-      - name: ffmpeg
-        cleanup:
-          - /include
-          - /lib/pkgconfig
-          - /share/ffmpeg/examples
-        config-opts:
-        # this is almost like io.mpv.Mpv, except we removed:
-        # --enable-libbs2b
-        # --enable-libjxl
-        # --enable-libmysofa
-        # --enable-libx264
-        # --enable-libx265
-        # because those would require yet another dependency tree
-          - --disable-debug
-          - --disable-doc
-          - --disable-programs
-          - --disable-static
-          - --enable-encoder=png
-          - --enable-gnutls
-          - --enable-gpl
-          - --enable-shared
-          - --enable-version3
-          - --enable-libaom
-          - --enable-libass
-          - --enable-libdav1d
-          - --enable-libfreetype
-          - --enable-libmp3lame
-          - --enable-libopus
-          - --enable-libtheora
-          - --enable-libv4l2
-          - --enable-libvorbis
-          - --enable-libvpx
-        sources:
-          - type: git
-            url: https://github.com/FFmpeg/FFmpeg.git
-            commit: ea3d24bbe3c58b171e55fe2151fc7ffaca3ab3d2
-            tag: n6.0
-            x-checker-data:
-              type: git
-              tag-pattern: ^n([\d.]{3,7})$
+  - modules/mpv.yml
 
   # this is used to bundle the final supersonic command correctly and
   # provides the /app/bin/fyne command to the next module
@@ -204,8 +103,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/dweymouth/supersonic/
-        commit: c3430c9c8598c336e90cdd127dd595fcbdda62ec
-        tag: v0.3.0
+        commit: becb34cd4a575f2f952046e61fce30e513e2e2c8
+        tag: v0.8.2
         x-checker-data:
           type: git
           # taken from Debian's uscan(1) @ANY_VERSION@ pattern,
