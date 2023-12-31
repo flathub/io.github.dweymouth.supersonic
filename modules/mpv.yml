@@ -145,8 +145,8 @@ modules:
               project-id: 334920
               url-template: https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/sdk-$version.tar.gz
           - type: archive
-            url: https://github.com/KhronosGroup/glslang/archive/13.1.1.tar.gz
-            sha256: 1c4d0a5a38c8aaf89a2d7e6093be734320599f5a6775b2726beeb05b0c054e66
+            url: https://github.com/KhronosGroup/glslang/archive/14.0.0.tar.gz
+            sha256: 80bbb916a23e94ea9cbfb1acb5d1a44a7e0c9613bcf5b5947c03f2273bdc92b0
             dest: third_party/glslang
             x-checker-data:
               type: anitya
@@ -190,8 +190,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FFmpeg/FFmpeg.git
-        commit: d4ff0020b40b524a490cf62eccbd3a318f4c0e58
-        tag: n6.1
+        commit: e38092ef9395d7049f871ef4d5411eb410e283e0
+        tag: n6.1.1
         x-checker-data:
           type: git
           tag-pattern: ^n([\d.]{3,7})$
