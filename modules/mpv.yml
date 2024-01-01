@@ -190,8 +190,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FFmpeg/FFmpeg.git
-        commit: d4ff0020b40b524a490cf62eccbd3a318f4c0e58
-        tag: n6.1
+        commit: e38092ef9395d7049f871ef4d5411eb410e283e0
+        tag: n6.1.1
         x-checker-data:
           type: git
           tag-pattern: ^n([\d.]{3,7})$
