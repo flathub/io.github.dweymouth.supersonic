@@ -67,8 +67,8 @@ modules:
       - -Ddemos=False
     sources:
       - type: archive
-        url: https://code.videolan.org/videolan/libplacebo/-/archive/v6.338.1/libplacebo-v6.338.1.tar.gz
-        sha256: f748bf9385f4c228e1379d7d1bed13581176bfdc54eb99f4abe22e649f8dc93f
+        url: https://code.videolan.org/videolan/libplacebo/-/archive/v6.338.2/libplacebo-v6.338.2.tar.gz
+        sha256: d029adbe55bba8aed7aed2c48b0b66081dddfb9d42683a709342e33aa666c544
         x-checker-data:
           type: anitya
           project-id: 20101
