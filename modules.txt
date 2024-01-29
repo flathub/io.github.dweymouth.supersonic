@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.4.1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20231123175732-3df0aca47d36
+# fyne.io/fyne/v2 v2.4.1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240112164109-5bc86600a24f
 ## explicit; go 1.17
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -31,6 +31,7 @@ fyne.io/fyne/v2/internal/painter
 fyne.io/fyne/v2/internal/painter/gl
 fyne.io/fyne/v2/internal/painter/software
 fyne.io/fyne/v2/internal/repository
+fyne.io/fyne/v2/internal/repository/mime
 fyne.io/fyne/v2/internal/scale
 fyne.io/fyne/v2/internal/svg
 fyne.io/fyne/v2/internal/test
@@ -67,7 +68,7 @@ github.com/dweymouth/go-jellyfin
 # github.com/dweymouth/go-mpv v0.0.0-20230406003141-7f1858e503ee
 ## explicit
 github.com/dweymouth/go-mpv
-# github.com/dweymouth/go-subsonic v0.0.0-20231216015633-3797c9b3d94d
+# github.com/dweymouth/go-subsonic v0.0.0-20231217175944-9b48c9ffc002
 ## explicit; go 1.13
 github.com/dweymouth/go-subsonic/subsonic
 # github.com/fredbi/uri v1.0.0
