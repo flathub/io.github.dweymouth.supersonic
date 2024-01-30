@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2023 anarcat <anarcat@debian.org> -->
+<component type="desktop-application">
+  <id>io.github.dweymouth.supersonic</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Supersonic</name>
+  <developer_name>Drew Weymouth</developer_name>
+  <summary> A lightweight cross-platform desktop client for Subsonic and Jellyfin music servers</summary>
+  <content_rating type="oars-1.0">
+    <content_attribute id="social-audio">intense</content_attribute>
+  </content_rating>
+
+  <description>
+    <p>
+      A lightweight cross-platform desktop client for Subsonic and Jellyfin music
+      servers.
+    </p>
+
+    <p>
+      Features:
+    </p>
+    <ul>
+      <li>Fast, lightweight, native UI, with infinite scrolling</li>
+      <li>Light and Dark themes, with optional auto theme switching</li>
+      <li>High-quality gapless audio playback powered by MPV, with optional  audio exclusive mode</li>
+      <li>ReplayGain support (depends on files being tagged on server)</li>
+      <li>MPRIS and Mac OS media center integration</li>
+      <li>Scrobble plays to server, with configurable criteria</li>
+      <li>Multi-server support</li>
+      <li>Primary and alternate server hostnames, e.g. for internal and external URLs</li>
+      <li>Set filters in albums browsing view</li>
+      <li>Sort tracklist views by column and configure visible tracklist columns</li>
+      <li>Set/unset favorite and browse by favorite albums, artists, and songs</li>
+      <li>Shuffle and repeat playback modes (partial; shuffle album,  playlist, artist radio, random songs)</li>
+    </ul>
+  </description>
+
+  <categories>
+    <category>Audio</category>
+  </categories>
+
+  <launchable type="desktop-id">io.github.dweymouth.supersonic.desktop</launchable>
+
+  <url type="homepage">https://github.com/dweymouth/supersonic</url>
+  <url type="bugtracker">https://github.com/dweymouth/supersonic/issues</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>The options dialog</caption>
+      <image>https://raw.githubusercontent.com/dweymouth/supersonic/main/res/screenshots/AlbumsView.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.github.com/dweymouth/supersonic/main/res/screenshots/AlbumView.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.github.com/dweymouth/supersonic/main/res/screenshots/ArtistView.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.github.com/dweymouth/supersonic/main/res/screenshots/FavoriteSongsView.png</image>
+    </screenshot>
+  </screenshots>
+
+ <releases>
+  <release date="2024-01-27" version="0.9.0">
+   <description>
+     <p>
+       Version 0.9.0 of Supersonic
+     </p>
+
+     <p>
+       Added
+     </p>
+     <ul>
+       <li>Allow reordering of tracks in the play queue</li>
+       <li>Highlight the icon of the current page's navigation button</li>
+       <li>Show release type in album page header (for OpenSubsonic servers)</li>
+       <li>Setting to save and reload play queue on exit/startup</li>
+       <li>Use most recent playlist as default in "Add to playlist" dialog</li>
+       <li>Option to show desktop notifications on track change</li>
+       <li>Added icons to context menu items</li>
+     </ul>
+
+     <p>
+       Fixed
+     </p>
+     <ul>
+       <li>OpenGL startup error on some hardware</li>
+     </ul>
+
+   </description>
+  </release>
+ </releases>
+
+</component>
