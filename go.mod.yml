@@ -4,10 +4,10 @@
   dest: vendor
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20240112164109-5bc86600a24f.zip
+  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20240225161354-77c28f6cd292.zip
   strip-components: 4
   dest: vendor/fyne.io/fyne/v2
-  sha256: 8c580373cbdddd82eafff1d8a2465c6ea278513d2eb57501f486c1857dfb1221
+  sha256: 938ed2a9e4c3d4315b4d5f177929b7fc091ddcea0063c43154e393636a085f06
 
 - type: archive
   url: https://proxy.golang.org/github.com/20after4/configdir/@v/v0.1.1.zip
@@ -148,10 +148,10 @@
   sha256: 64c4d082cacaa0ad592cf6cbf081dad9301f3d8917b55dd09ac7d4f41a912d66
 
 - type: archive
-  url: https://proxy.golang.org/github.com/go-text/typesetting/@v/v0.0.0-20230616162802-9c17dd34aa4a.zip
+  url: https://proxy.golang.org/github.com/go-text/typesetting/@v/v0.1.0.zip
   strip-components: 3
   dest: vendor/github.com/go-text/typesetting
-  sha256: ba5d70775b6480f3c8eb02740019f8258e0464069e14cd16819e631b6a90327c
+  sha256: ef6f9e883e2cf9183d5bbff334af0c03c192aa026e879b7839781e049770c699
 
 - type: archive
   url: https://proxy.golang.org/github.com/gopherjs/gopherjs/@v/v1.17.2.zip
