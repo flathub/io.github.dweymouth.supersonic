@@ -37,6 +37,14 @@ source tree (e.g. `~/dist/supersonic` below):
 
     go run github.com/dennwc/flatpak-go-mod@latest ~/dist/supersonic
 
+Or, if it's installed locally:
+
+    ~/go/bin/flatpak-go-mod ~/dist/supersonic
+
+With the usual git pull, this becomes:
+
+    git -C ~/dist/supersonic pull && ~/go/bin/flatpak-go-mod ~/dist/supersonic
+
 ### Digression
 
 It's surprisingly difficult to get this to work right. First off, it's
