@@ -4,10 +4,10 @@
   dest: vendor
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20240413154245-d9a397b43dd6.zip
+  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20240418162613-9e56d7882130.zip
   strip-components: 4
   dest: vendor/fyne.io/fyne/v2
-  sha256: 915724009b6f33d433642f27ef82ff4fd9b9d2885b85e5ee702cabb0e94cc12a
+  sha256: bb35d47ed6aea6a2ea93f128d22d955e5bd76c48e10c298adf073ba8d2697f27
 
 - type: archive
   url: https://proxy.golang.org/github.com/20after4/configdir/@v/v0.1.1.zip
