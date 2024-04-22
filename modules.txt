@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.4.4 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240413154245-d9a397b43dd6
+# fyne.io/fyne/v2 v2.4.4 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240418162613-9e56d7882130
 ## explicit; go 1.17
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
