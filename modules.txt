@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.5.0 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240701152141-03bb69ca60ab
+# fyne.io/fyne/v2 v2.5.0 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240728183020-7abcad1f4139
 ## explicit; go 1.19
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -69,7 +69,7 @@ github.com/Microsoft/go-winio/pkg/guid
 # github.com/alessio/shellescape v1.4.1
 ## explicit; go 1.14
 github.com/alessio/shellescape
-# github.com/cenkalti/dominantcolor v1.0.2
+# github.com/cenkalti/dominantcolor v1.0.3
 ## explicit; go 1.20
 github.com/cenkalti/dominantcolor
 # github.com/danieljoos/wincred v1.1.0
@@ -81,9 +81,6 @@ github.com/davecgh/go-spew/spew
 # github.com/deluan/sanitize v0.0.0-20230310221930-6e18967d9fc1
 ## explicit; go 1.17
 github.com/deluan/sanitize
-# github.com/disintegration/imaging v1.6.2
-## explicit
-github.com/disintegration/imaging
 # github.com/dweymouth/fyne-advanced-list v0.0.0-20240623145729-9c6b8f99bcfe
 ## explicit; go 1.19
 github.com/dweymouth/fyne-advanced-list
@@ -93,10 +90,10 @@ github.com/dweymouth/fyne-lyrics
 # github.com/dweymouth/go-jellyfin v0.0.0-20240517151952-5ceca61cb645
 ## explicit; go 1.20
 github.com/dweymouth/go-jellyfin
-# github.com/dweymouth/go-mpv v0.0.0-20230406003141-7f1858e503ee
+# github.com/dweymouth/go-mpv v0.0.0-20240724002347-c5e5b36f1bbf
 ## explicit
 github.com/dweymouth/go-mpv
-# github.com/dweymouth/go-subsonic v0.0.0-20240603150834-605046e7c78a
+# github.com/dweymouth/go-subsonic v0.0.0-20240726004217-2e8e348ad417
 ## explicit; go 1.13
 github.com/dweymouth/go-subsonic/subsonic
 # github.com/fredbi/uri v1.1.0
@@ -197,7 +194,6 @@ github.com/rymdport/portal/internal/convert
 github.com/rymdport/portal/notification
 github.com/rymdport/portal/openuri
 github.com/rymdport/portal/settings
-github.com/rymdport/portal/settings/appearance
 # github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c
 ## explicit; go 1.17
 github.com/srwiley/oksvg
@@ -223,7 +219,6 @@ github.com/zalando/go-keyring
 github.com/zalando/go-keyring/secret_service
 # golang.org/x/image v0.18.0
 ## explicit; go 1.18
-golang.org/x/image/bmp
 golang.org/x/image/ccitt
 golang.org/x/image/colornames
 golang.org/x/image/draw
