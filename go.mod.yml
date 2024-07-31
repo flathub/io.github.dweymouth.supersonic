@@ -4,10 +4,10 @@
   dest: vendor
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20240701152141-03bb69ca60ab.zip
+  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20240728183020-7abcad1f4139.zip
   strip-components: 4
   dest: vendor/fyne.io/fyne/v2
-  sha256: 575ac6676ed83bd0b8a70b41ae1712ac4813310d90a7fcdae3299581e94f7ca8
+  sha256: 7bfdab7157ec72b32a3b1235450da2db82239a8d23f12b43a6a352e1be6d1ec6
 
 - type: archive
   url: https://proxy.golang.org/github.com/20after4/configdir/@v/v0.1.1.zip
@@ -22,10 +22,10 @@
   sha256: cd007bdb877a578efde2780bf5dd2f57dd557b5b08c3614597b820d0369ebb0f
 
 - type: archive
-  url: https://proxy.golang.org/github.com/cenkalti/dominantcolor/@v/v1.0.2.zip
+  url: https://proxy.golang.org/github.com/cenkalti/dominantcolor/@v/v1.0.3.zip
   strip-components: 3
   dest: vendor/github.com/cenkalti/dominantcolor
-  sha256: 1310b9cf384a15aa6744df78e8a30d02ef6467b056f316a0dbdcc6300b706262
+  sha256: 739a610a5302a2768063dbc8dd65fbedbf7cf0f6951a4af94b06c25a47cded8a
 
 - type: archive
   url: https://proxy.golang.org/github.com/deluan/sanitize/@v/v0.0.0-20230310221930-6e18967d9fc1.zip
@@ -52,16 +52,16 @@
   sha256: 4bb97da0032b5cf5f9ef9383115ce5c0051a23caf60ab79ea77a72901fdf90fd
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-mpv/@v/v0.0.0-20230406003141-7f1858e503ee.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-mpv/@v/v0.0.0-20240724002347-c5e5b36f1bbf.zip
   strip-components: 3
   dest: vendor/github.com/dweymouth/go-mpv
-  sha256: c3060358e7d6e5027edb8d61f0a101de6e4930e3ad378023444dc10afc6cb484
+  sha256: 85b524d813189ed63d64f4e8b7df084f3611ec08090787c0f583771025cf0acb
 
 - type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20240603150834-605046e7c78a.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-subsonic/@v/v0.0.0-20240726004217-2e8e348ad417.zip
   strip-components: 3
   dest: vendor/github.com/dweymouth/go-subsonic
-  sha256: 1e1f0bb4f3a165d406fd3c7469363b232a3a89038529b3f207540fe4f38a8d18
+  sha256: 03a5fa9b2b3def31b1db7118521e72aef4e24fa9f2900286e1764cb6b2ee12ff
 
 - type: archive
   url: https://proxy.golang.org/github.com/godbus/dbus/v5/@v/v5.1.0.zip
@@ -134,12 +134,6 @@
   strip-components: 3
   dest: vendor/github.com/davecgh/go-spew
   sha256: 6b44a843951f371b7010c754ecc3cabefe815d5ced1c5b9409fb2d697e8a890d
-
-- type: archive
-  url: https://proxy.golang.org/github.com/disintegration/imaging/@v/v1.6.2.zip
-  strip-components: 3
-  dest: vendor/github.com/disintegration/imaging
-  sha256: 2934e7bace3c8c0b1b4a07144197e8720b9ffbe922600e3a3c764f77792ac7c4
 
 - type: archive
   url: https://proxy.golang.org/github.com/fredbi/uri/@v/v1.1.0.zip
