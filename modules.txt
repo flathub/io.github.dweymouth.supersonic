@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.5.0 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240728183020-7abcad1f4139
+# fyne.io/fyne/v2 v2.5.0 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240819150801-f6d6d2ad82de
 ## explicit; go 1.19
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -81,21 +81,21 @@ github.com/davecgh/go-spew/spew
 # github.com/deluan/sanitize v0.0.0-20230310221930-6e18967d9fc1
 ## explicit; go 1.17
 github.com/deluan/sanitize
-# github.com/dweymouth/fyne-advanced-list v0.0.0-20240623145729-9c6b8f99bcfe
+# github.com/dweymouth/fyne-advanced-list v0.0.0-20240806013530-392de9d6a2a1
 ## explicit; go 1.19
 github.com/dweymouth/fyne-advanced-list
 # github.com/dweymouth/fyne-lyrics v0.0.0-20240528234907-15eee7ce5e64
 ## explicit; go 1.19
 github.com/dweymouth/fyne-lyrics
+# github.com/dweymouth/fyne-tooltip v0.2.0
+## explicit; go 1.21
+github.com/dweymouth/fyne-tooltip
+github.com/dweymouth/fyne-tooltip/internal
+github.com/dweymouth/fyne-tooltip/internal/shadow
+github.com/dweymouth/fyne-tooltip/widget
 # github.com/dweymouth/go-jellyfin v0.0.0-20240517151952-5ceca61cb645
 ## explicit; go 1.20
 github.com/dweymouth/go-jellyfin
-# github.com/dweymouth/go-mpv v0.0.0-20240724002347-c5e5b36f1bbf
-## explicit
-github.com/dweymouth/go-mpv
-# github.com/dweymouth/go-subsonic v0.0.0-20240726004217-2e8e348ad417
-## explicit; go 1.13
-github.com/dweymouth/go-subsonic/subsonic
 # github.com/fredbi/uri v1.1.0
 ## explicit; go 1.19
 github.com/fredbi/uri
@@ -126,7 +126,7 @@ github.com/go-gl/glfw/v3.3/glfw/glfw/deps/mingw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps/vs2008
 github.com/go-gl/glfw/v3.3/glfw/glfw/include/GLFW
 github.com/go-gl/glfw/v3.3/glfw/glfw/src
-# github.com/go-text/render v0.1.0
+# github.com/go-text/render v0.1.1-0.20240418202334-dd62631dae9b
 ## explicit; go 1.17
 github.com/go-text/render
 # github.com/go-text/typesetting v0.1.0
@@ -185,7 +185,7 @@ github.com/quarckster/go-mpris-server/internal
 github.com/quarckster/go-mpris-server/pkg/events
 github.com/quarckster/go-mpris-server/pkg/server
 github.com/quarckster/go-mpris-server/pkg/types
-# github.com/rymdport/portal v0.2.2
+# github.com/rymdport/portal v0.2.6
 ## explicit; go 1.19
 github.com/rymdport/portal
 github.com/rymdport/portal/filechooser
@@ -194,6 +194,7 @@ github.com/rymdport/portal/internal/convert
 github.com/rymdport/portal/notification
 github.com/rymdport/portal/openuri
 github.com/rymdport/portal/settings
+github.com/rymdport/portal/settings/appearance
 # github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c
 ## explicit; go 1.17
 github.com/srwiley/oksvg
@@ -204,6 +205,12 @@ github.com/srwiley/rasterx
 ## explicit; go 1.20
 github.com/stretchr/testify/assert
 github.com/stretchr/testify/require
+# github.com/supersonic-app/go-mpv v0.1.0
+## explicit; go 1.19
+github.com/supersonic-app/go-mpv
+# github.com/supersonic-app/go-subsonic v0.0.0-20240807031555-2cb1ccd78f85
+## explicit; go 1.13
+github.com/supersonic-app/go-subsonic/subsonic
 # github.com/yuin/goldmark v1.7.1
 ## explicit; go 1.19
 github.com/yuin/goldmark
