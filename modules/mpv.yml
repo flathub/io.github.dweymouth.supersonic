@@ -75,8 +75,8 @@ modules:
           stable-only: true
           url-template: https://code.videolan.org/videolan/libplacebo/-/archive/v$version/libplacebo-v$version.tar.gz
       - type: archive
-        url: https://github.com/pallets/markupsafe/archive/refs/tags/3.0.0.tar.gz
-        sha256: c5edf012c5ff27048804a2ce736063e8455a2984d81caa0bce07ed84cbd05562
+        url: https://github.com/pallets/markupsafe/archive/refs/tags/3.0.1.tar.gz
+        sha256: f92585e7df58201478dd5f9078021cb7da5524feaf68ced7d24622cf00bbf66b
         dest: 3rdparty/markupsafe
         x-checker-data:
           type: anitya
