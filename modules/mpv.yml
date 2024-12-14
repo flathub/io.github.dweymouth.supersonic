@@ -121,8 +121,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/google/shaderc.git
-            tag: v2024.3
-            commit: ff84893dd52d28f0b1737d2635733d952013bd9c
+            tag: v2024.4
+            commit: caa54d9779d5605aca4e1a0c0c962a3d8f4aeb31
             x-checker-data:
               type: git
               tag-pattern: ^v(\d{4}\.\d{1,2})$
@@ -145,8 +145,8 @@ modules:
               project-id: 334920
               url-template: https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/sdk-$version.tar.gz
           - type: archive
-            url: https://github.com/KhronosGroup/glslang/archive/15.0.0.tar.gz
-            sha256: c31c8c2e89af907507c0631273989526ee7d5cdf7df95ececd628fd7b811e064
+            url: https://github.com/KhronosGroup/glslang/archive/15.1.0.tar.gz
+            sha256: 4bdcd8cdb330313f0d4deed7be527b0ac1c115ff272e492853a6e98add61b4bc
             dest: third_party/glslang
             x-checker-data:
               type: anitya
