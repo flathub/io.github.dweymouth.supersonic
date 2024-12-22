@@ -57,6 +57,9 @@ modules:
         dest-filename: autogen.sh
   - name: libplacebo
     buildsystem: meson
+    build-options:
+      # https://github.com/haasn/libplacebo/issues/165
+      cxxflags: -lglslang-default-resource-limits
     cleanup:
       - /include
       - /lib/pkgconfig
