@@ -3,7 +3,7 @@
 # https://github.com/search?q=org%3Aflathub+mpv&type=code
 app-id: io.github.dweymouth.supersonic
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
