@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.5.0 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20240819150801-f6d6d2ad82de
+# fyne.io/fyne/v2 v2.5.3 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20241221194247-e7d4715906d9
 ## explicit; go 1.19
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -105,7 +105,7 @@ github.com/fsnotify/fsnotify
 # github.com/fyne-io/gl-js v0.0.0-20220119005834-d2da28d9ccfe
 ## explicit; go 1.14
 github.com/fyne-io/gl-js
-# github.com/fyne-io/glfw-js v0.0.0-20240101223322-6e1efdc71b7a
+# github.com/fyne-io/glfw-js v0.0.0-20241126112943-313d8a0fe1d0
 ## explicit; go 1.19
 github.com/fyne-io/glfw-js
 # github.com/fyne-io/image v0.0.0-20220602074514-4956b0afb3d2
@@ -126,23 +126,20 @@ github.com/go-gl/glfw/v3.3/glfw/glfw/deps/mingw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps/vs2008
 github.com/go-gl/glfw/v3.3/glfw/glfw/include/GLFW
 github.com/go-gl/glfw/v3.3/glfw/glfw/src
-# github.com/go-text/render v0.1.1-0.20240418202334-dd62631dae9b
+# github.com/go-text/render v0.2.0
 ## explicit; go 1.17
 github.com/go-text/render
-# github.com/go-text/typesetting v0.1.0
+# github.com/go-text/typesetting v0.2.0
 ## explicit; go 1.17
 github.com/go-text/typesetting/di
 github.com/go-text/typesetting/font
+github.com/go-text/typesetting/font/cff
+github.com/go-text/typesetting/font/cff/interpreter
+github.com/go-text/typesetting/font/opentype
+github.com/go-text/typesetting/font/opentype/tables
 github.com/go-text/typesetting/fontscan
 github.com/go-text/typesetting/harfbuzz
 github.com/go-text/typesetting/language
-github.com/go-text/typesetting/opentype/api
-github.com/go-text/typesetting/opentype/api/font
-github.com/go-text/typesetting/opentype/api/font/cff
-github.com/go-text/typesetting/opentype/api/font/cff/interpreter
-github.com/go-text/typesetting/opentype/api/metadata
-github.com/go-text/typesetting/opentype/loader
-github.com/go-text/typesetting/opentype/tables
 github.com/go-text/typesetting/segmenter
 github.com/go-text/typesetting/shaping
 github.com/go-text/typesetting/unicodedata
@@ -185,7 +182,7 @@ github.com/quarckster/go-mpris-server/internal
 github.com/quarckster/go-mpris-server/pkg/events
 github.com/quarckster/go-mpris-server/pkg/server
 github.com/quarckster/go-mpris-server/pkg/types
-# github.com/rymdport/portal v0.2.6
+# github.com/rymdport/portal v0.3.0
 ## explicit; go 1.19
 github.com/rymdport/portal
 github.com/rymdport/portal/filechooser
@@ -208,7 +205,7 @@ github.com/stretchr/testify/require
 # github.com/supersonic-app/go-mpv v0.1.0
 ## explicit; go 1.19
 github.com/supersonic-app/go-mpv
-# github.com/supersonic-app/go-subsonic v0.0.0-20240807031555-2cb1ccd78f85
+# github.com/supersonic-app/go-subsonic v0.0.0-20241017150725-a5686988ef9c
 ## explicit; go 1.13
 github.com/supersonic-app/go-subsonic/subsonic
 # github.com/yuin/goldmark v1.7.1
