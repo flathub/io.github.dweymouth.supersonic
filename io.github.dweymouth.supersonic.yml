@@ -79,8 +79,8 @@ modules:
       - '*'
     sources:
       - type: archive
-        url: https://github.com/fyne-io/fyne/archive/refs/tags/v2.3.3.tar.gz
-        sha256: 239ed91d11c986f3be292b73fcfe7e3ffb7a5059dca64e6e928f054e12436b6c
+        url: https://github.com/fyne-io/fyne/archive/refs/tags/v2.6.0-alpha1.tar.gz
+        sha256: ee4c02cbc26756ceb1e05823a2aa7dacbed8a3ae525b3a769dc4410739330ee5
 
   - name: supersonic
     buildsystem: simple
