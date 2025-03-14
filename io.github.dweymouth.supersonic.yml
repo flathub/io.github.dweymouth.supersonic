@@ -90,9 +90,9 @@ modules:
         GOBIN: /app/bin
         GO11MODULE: off
     build-commands:
-      - . /usr/lib/sdk/golang/enable.sh && CGO_LDFLAGS=-L/app/lib go build -v .
+      - . /usr/lib/sdk/golang/enable.sh && CGO_LDFLAGS=-L/app/lib go build -v -tags migrated_fynedo .
       - . /usr/lib/sdk/golang/enable.sh && CGO_LDFLAGS=-L/app/lib /app/bin/fyne package
-        -os linux -name Supersonic -icon ./res/appicon-512.png
+        -os linux -name Supersonic -icon ./res/appicon-512.png -tags migrated_fynedo
       - tar -C /app --strip-components=1 -x -v -f /run/build/supersonic/Supersonic.tar.xz
       - mkdir -p /app/share/icons/hicolor/512x512/apps/
       - mv /app/share/pixmaps/Supersonic.png /app/share/icons/hicolor/512x512/apps/
