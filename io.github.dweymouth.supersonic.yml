@@ -90,7 +90,8 @@ modules:
         GOBIN: /app/bin
         GO11MODULE: off
     build-commands:
-      - . /usr/lib/sdk/golang/enable.sh && CGO_LDFLAGS=-L/app/lib go build -v -tags migrated_fynedo .
+      - . /usr/lib/sdk/golang/enable.sh && CGO_LDFLAGS=-L/app/lib go build -v -tags
+        migrated_fynedo .
       - . /usr/lib/sdk/golang/enable.sh && CGO_LDFLAGS=-L/app/lib /app/bin/fyne package
         -os linux -name Supersonic -icon ./res/appicon-512.png -tags migrated_fynedo
       - tar -C /app --strip-components=1 -x -v -f /run/build/supersonic/Supersonic.tar.xz
@@ -108,8 +109,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/dweymouth/supersonic/
-        commit: adf6d7c324b87e863ff8ae684ac1c6cfcb6227c6
-        tag: v0.14.0
+        commit: 2b2e2251e717eafc94dcda82071b2cd063c1e9ec
+        tag: v0.15.0
         x-checker-data:
           type: git
           # taken from Debian's uscan(1) @ANY_VERSION@ pattern,
