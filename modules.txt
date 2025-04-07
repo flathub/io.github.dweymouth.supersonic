@@ -1,7 +1,7 @@
 # al.essio.dev/pkg/shellescape v1.5.1
 ## explicit; go 1.18
 al.essio.dev/pkg/shellescape
-# fyne.io/fyne/v2 v2.6.0-alpha1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20250222005659-e73d8f178006
+# fyne.io/fyne/v2 v2.6.0-beta1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20250406173843-f5cb002423a5
 ## explicit; go 1.19
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -105,12 +105,15 @@ github.com/fsnotify/fsnotify
 # github.com/fyne-io/gl-js v0.1.0
 ## explicit; go 1.19
 github.com/fyne-io/gl-js
-# github.com/fyne-io/glfw-js v0.1.0
+# github.com/fyne-io/glfw-js v0.2.0
 ## explicit; go 1.19
 github.com/fyne-io/glfw-js
-# github.com/fyne-io/image v0.1.0
+# github.com/fyne-io/image v0.1.1
 ## explicit; go 1.19
 github.com/fyne-io/image/ico
+# github.com/fyne-io/oksvg v0.1.0
+## explicit; go 1.19
+github.com/fyne-io/oksvg
 # github.com/go-gl/gl v0.0.0-20231021071112-07e5d0ea2e71
 ## explicit; go 1.12
 github.com/go-gl/gl/v2.1/gl
@@ -151,12 +154,38 @@ github.com/godbus/dbus/v5/prop
 # github.com/google/uuid v1.3.0
 ## explicit
 github.com/google/uuid
+# github.com/h2non/filetype v1.1.3
+## explicit; go 1.13
+github.com/h2non/filetype
+github.com/h2non/filetype/matchers
+github.com/h2non/filetype/matchers/isobmff
+github.com/h2non/filetype/types
+# github.com/hack-pad/go-indexeddb v0.3.2
+## explicit; go 1.18
+github.com/hack-pad/go-indexeddb/idb
+github.com/hack-pad/go-indexeddb/idb/internal/jscache
+# github.com/hack-pad/safejs v0.1.0
+## explicit; go 1.18
+github.com/hack-pad/safejs
+github.com/hack-pad/safejs/internal/catch
+github.com/hack-pad/safejs/internal/stackerr
+# github.com/hashicorp/go-cleanhttp v0.5.2
+## explicit; go 1.13
+github.com/hashicorp/go-cleanhttp
+# github.com/hashicorp/go-retryablehttp v0.7.7
+## explicit; go 1.19
+github.com/hashicorp/go-retryablehttp
 # github.com/jeandeaual/go-locale v0.0.0-20241217141322-fcc2cadd6f08
 ## explicit; go 1.18
 github.com/jeandeaual/go-locale
 # github.com/jsummers/gobmp v0.0.0-20230614200233-a9de23ed2e25
 ## explicit
 github.com/jsummers/gobmp
+# github.com/koron/go-ssdp v0.0.5
+## explicit; go 1.21.9
+github.com/koron/go-ssdp
+github.com/koron/go-ssdp/internal/multicast
+github.com/koron/go-ssdp/internal/ssdplog
 # github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 ## explicit
 github.com/nfnt/resize
@@ -182,12 +211,13 @@ github.com/quarckster/go-mpris-server/internal
 github.com/quarckster/go-mpris-server/pkg/events
 github.com/quarckster/go-mpris-server/pkg/server
 github.com/quarckster/go-mpris-server/pkg/types
-# github.com/rymdport/portal v0.3.0
+# github.com/rymdport/portal v0.4.1
 ## explicit; go 1.19
 github.com/rymdport/portal
 github.com/rymdport/portal/filechooser
 github.com/rymdport/portal/internal/apis
 github.com/rymdport/portal/internal/convert
+github.com/rymdport/portal/internal/request
 github.com/rymdport/portal/notification
 github.com/rymdport/portal/openuri
 github.com/rymdport/portal/settings
@@ -209,6 +239,13 @@ github.com/supersonic-app/go-mpv
 # github.com/supersonic-app/go-subsonic v0.0.0-20241224013245-9b2841f3711d
 ## explicit; go 1.13
 github.com/supersonic-app/go-subsonic/subsonic
+# github.com/supersonic-app/go-upnpcast v0.0.0-20250330154256-b957204209a5
+## explicit; go 1.21.9
+github.com/supersonic-app/go-upnpcast/device
+github.com/supersonic-app/go-upnpcast/internal/utils
+github.com/supersonic-app/go-upnpcast/services
+github.com/supersonic-app/go-upnpcast/services/avtransport
+github.com/supersonic-app/go-upnpcast/services/renderingcontrol
 # github.com/yuin/goldmark v1.7.8
 ## explicit; go 1.19
 github.com/yuin/goldmark
@@ -236,11 +273,15 @@ golang.org/x/image/vector
 golang.org/x/image/vp8
 golang.org/x/image/vp8l
 golang.org/x/image/webp
-# golang.org/x/net v0.25.0
+# golang.org/x/net v0.35.0
 ## explicit; go 1.18
+golang.org/x/net/bpf
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/html/charset
+golang.org/x/net/internal/iana
+golang.org/x/net/internal/socket
+golang.org/x/net/ipv4
 # golang.org/x/sys v0.30.0
 ## explicit; go 1.18
 golang.org/x/sys/unix
