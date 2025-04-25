@@ -109,8 +109,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/dweymouth/supersonic/
-        commit: a479c554af8bee60f3d8c0ac440772aa14fbf5e5
-        tag: v0.15.1
+        commit: 9bed86723813121aed02647dd269b3f23f5d0c1a
+        tag: v0.15.2
         x-checker-data:
           type: git
           # taken from Debian's uscan(1) @ANY_VERSION@ pattern,
