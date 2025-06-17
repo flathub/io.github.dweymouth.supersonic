@@ -32,21 +32,16 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/dweymouth/fyne-advanced-list/@v/v0.0.0-20250211191927-58ea85eec72c.zip
-- dest: vendor/github.com/dweymouth/fyne-lyrics
-  sha256: a819f5b5e1fcd7dcb6af1bd17e63947bb478669f063af9896bb02f7b069b36ab
-  strip-components: 3
-  type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/fyne-lyrics/@v/v0.0.0-20240528234907-15eee7ce5e64.zip
 - dest: vendor/github.com/dweymouth/fyne-tooltip
   sha256: b09500fcd934aa15daf215e440d88998ddfe5158e19200782e827f0c6e989b33
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/dweymouth/fyne-tooltip/@v/v0.3.0.zip
 - dest: vendor/github.com/dweymouth/go-jellyfin
-  sha256: 4bb97da0032b5cf5f9ef9383115ce5c0051a23caf60ab79ea77a72901fdf90fd
+  sha256: e8ebac05d120c89b42430777afb18bfec75a72f678e0c508254055582c60de05
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20240517151952-5ceca61cb645.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250531151636-29591764f0a0.zip
 - dest: vendor/github.com/godbus/dbus/v5
   sha256: 03dfa8e71089a6f477310d15c4d3a036d82d028532881b50fee254358e782ad9
   strip-components: 4
@@ -72,6 +67,11 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/quarckster/go-mpris-server/@v/v1.0.3.zip
+- dest: vendor/github.com/supersonic-app/fyne-lyrics
+  sha256: 29651d49f666d48664d2fc9c4802d0a525dd5306146cb752871b98443eb8e168
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/github.com/supersonic-app/fyne-lyrics/@v/v0.0.0-20250614151306-b1880a70a410.zip
 - dest: vendor/github.com/supersonic-app/go-mpv
   sha256: 2c192a51e380a1e745a5c4c719ef50c39615629113c279833e7271df0b5ac673
   strip-components: 3
