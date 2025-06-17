@@ -84,16 +84,13 @@ github.com/deluan/sanitize
 # github.com/dweymouth/fyne-advanced-list v0.0.0-20250211191927-58ea85eec72c
 ## explicit; go 1.19
 github.com/dweymouth/fyne-advanced-list
-# github.com/dweymouth/fyne-lyrics v0.0.0-20240528234907-15eee7ce5e64
-## explicit; go 1.19
-github.com/dweymouth/fyne-lyrics
 # github.com/dweymouth/fyne-tooltip v0.3.0
 ## explicit; go 1.21
 github.com/dweymouth/fyne-tooltip
 github.com/dweymouth/fyne-tooltip/internal
 github.com/dweymouth/fyne-tooltip/internal/shadow
 github.com/dweymouth/fyne-tooltip/widget
-# github.com/dweymouth/go-jellyfin v0.0.0-20240517151952-5ceca61cb645
+# github.com/dweymouth/go-jellyfin v0.0.0-20250531151636-29591764f0a0
 ## explicit; go 1.20
 github.com/dweymouth/go-jellyfin
 # github.com/fredbi/uri v1.1.0
@@ -233,6 +230,9 @@ github.com/srwiley/rasterx
 github.com/stretchr/testify/assert
 github.com/stretchr/testify/assert/yaml
 github.com/stretchr/testify/require
+# github.com/supersonic-app/fyne-lyrics v0.0.0-20250614151306-b1880a70a410
+## explicit; go 1.19
+github.com/supersonic-app/fyne-lyrics
 # github.com/supersonic-app/go-mpv v0.1.0
 ## explicit; go 1.19
 github.com/supersonic-app/go-mpv
