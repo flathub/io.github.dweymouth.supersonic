@@ -3,10 +3,10 @@
   path: modules.txt
   type: file
 - dest: vendor/fyne.io/fyne/v2
-  sha256: aa2756d52b93113542759e0ef66501e7737f580139b2f97a614973b0b1435de8
+  sha256: 003a1b115affbb6210bff9831db0040797274d43c101203bd12a4563c8f25aa7
   strip-components: 4
   type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20250406173843-f5cb002423a5.zip
+  url: https://proxy.golang.org/github.com/dweymouth/fyne/v2/@v/v2.3.0-rc1.0.20250712002006-5064d705dac4.zip
 - dest: vendor/github.com/20after4/configdir
   sha256: 94015014ef1473b2299f12f6d7b8e97a042df01266bf57e95f318186294ed340
   strip-components: 3
@@ -38,10 +38,10 @@
   type: archive
   url: https://proxy.golang.org/github.com/dweymouth/fyne-tooltip/@v/v0.3.0.zip
 - dest: vendor/github.com/dweymouth/go-jellyfin
-  sha256: e8ebac05d120c89b42430777afb18bfec75a72f678e0c508254055582c60de05
+  sha256: ec94a92a1333f144c22e7cf301de63bca9fa92bfe418f0f84831c5354724c1a5
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250531151636-29591764f0a0.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250716005557-0ea2becece1f.zip
 - dest: vendor/github.com/godbus/dbus/v5
   sha256: 03dfa8e71089a6f477310d15c4d3a036d82d028532881b50fee254358e782ad9
   strip-components: 4
@@ -132,6 +132,11 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.zip
+- dest: vendor/github.com/fogleman/gg
+  sha256: 792f7a3ea9eea31b7947dabaf9d5a307389245069078e4bf435d76cb0505439c
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/github.com/fogleman/gg/@v/v1.3.0.zip
 - dest: vendor/github.com/fredbi/uri
   sha256: 3b255e9c628d2d257107026e2b1ef2071cdc533ccb2ab3ae57837afe4deab5d8
   strip-components: 3
@@ -182,6 +187,11 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/go-text/typesetting/@v/v0.2.1.zip
+- dest: vendor/github.com/golang/freetype
+  sha256: cdcb9e6a14933dcbf167b44dcd5083fc6a2e52c4fae8fb79747c691efeb7d84e
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/github.com/golang/freetype/@v/v0.0.0-20170609003504-e2365dfdc4a0.zip
 - dest: vendor/github.com/h2non/filetype
   sha256: 7ed1f569442848fb3f6bc43592da0b14797057cd60a0c9833ceb15ddb8c118e9
   strip-components: 3
