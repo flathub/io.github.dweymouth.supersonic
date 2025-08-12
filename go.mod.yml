@@ -38,10 +38,20 @@
   type: archive
   url: https://proxy.golang.org/github.com/dweymouth/fyne-tooltip/@v/v0.3.0.zip
 - dest: vendor/github.com/dweymouth/go-jellyfin
-  sha256: ec94a92a1333f144c22e7cf301de63bca9fa92bfe418f0f84831c5354724c1a5
+  sha256: 86d2a17582c133e162cf8a4c50730c037d449311c60e0aae33e2606d5a7ae4a8
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250716005557-0ea2becece1f.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250808023725-196437af15a6.zip
+- dest: vendor/github.com/go-audio/audio
+  sha256: 67d0a0608e5938058051a424e0ddddc351f14d053af4cc3b912eb0ef3b03d7a6
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/github.com/go-audio/audio/@v/v1.0.0.zip
+- dest: vendor/github.com/go-audio/wav
+  sha256: 46da18c5b3865a42575cc8ca5b180621b209c0b1f3305ca1ba180a54a20d1e84
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/github.com/dweymouth/go-wav/@v/v0.0.0-20250719173115-e60429a83eb0.zip
 - dest: vendor/github.com/godbus/dbus/v5
   sha256: 03dfa8e71089a6f477310d15c4d3a036d82d028532881b50fee254358e782ad9
   strip-components: 4
@@ -102,6 +112,11 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/golang.org/x/sys/@v/v0.30.0.zip
+- dest: vendor/golang.org/x/term
+  sha256: 9d92c583d222113ac653848b3319ff559d2dba92f8232baff03d08fc9c0b8619
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/golang.org/x/term/@v/v0.29.0.zip
 - dest: vendor/golang.org/x/text
   sha256: 939cb4c202aa8fa302f2ba6f9d29165ce82fce9c665d9a1a0bb0d9e51b79e6f5
   strip-components: 3
@@ -167,6 +182,11 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/fyne-io/oksvg/@v/v0.1.0.zip
+- dest: vendor/github.com/go-audio/riff
+  sha256: 1fb211d7f24bd1bbadf764ce92debf386fd4d86d17c5d3ab5198eeda0761e2fa
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/github.com/go-audio/riff/@v/v1.0.0.zip
 - dest: vendor/github.com/go-gl/gl
   sha256: 961f0d3398e4d851e2028bec81e2c3d486e63d22fbf078f71f49644dac317714
   strip-components: 3

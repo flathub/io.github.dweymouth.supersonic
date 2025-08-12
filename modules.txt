@@ -90,7 +90,7 @@ github.com/dweymouth/fyne-tooltip
 github.com/dweymouth/fyne-tooltip/internal
 github.com/dweymouth/fyne-tooltip/internal/shadow
 github.com/dweymouth/fyne-tooltip/widget
-# github.com/dweymouth/go-jellyfin v0.0.0-20250716005557-0ea2becece1f
+# github.com/dweymouth/go-jellyfin v0.0.0-20250808023725-196437af15a6
 ## explicit; go 1.20
 github.com/dweymouth/go-jellyfin
 # github.com/fogleman/gg v1.3.0
@@ -114,6 +114,15 @@ github.com/fyne-io/image/ico
 # github.com/fyne-io/oksvg v0.1.0
 ## explicit; go 1.19
 github.com/fyne-io/oksvg
+# github.com/go-audio/audio v1.0.0
+## explicit
+github.com/go-audio/audio
+# github.com/go-audio/riff v1.0.0
+## explicit; go 1.12
+github.com/go-audio/riff
+# github.com/go-audio/wav v1.1.0 => github.com/dweymouth/go-wav v0.0.0-20250719173115-e60429a83eb0
+## explicit; go 1.13
+github.com/go-audio/wav
 # github.com/go-gl/gl v0.0.0-20231021071112-07e5d0ea2e71
 ## explicit; go 1.12
 github.com/go-gl/gl/v2.1/gl
@@ -293,9 +302,13 @@ golang.org/x/net/internal/socket
 golang.org/x/net/ipv4
 # golang.org/x/sys v0.30.0
 ## explicit; go 1.18
+golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
+# golang.org/x/term v0.29.0
+## explicit; go 1.18
+golang.org/x/term
 # golang.org/x/text v0.22.0
 ## explicit; go 1.18
 golang.org/x/text/collate
