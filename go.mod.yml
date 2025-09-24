@@ -38,10 +38,10 @@
   type: archive
   url: https://proxy.golang.org/github.com/dweymouth/fyne-tooltip/@v/v0.3.0.zip
 - dest: vendor/github.com/dweymouth/go-jellyfin
-  sha256: 86d2a17582c133e162cf8a4c50730c037d449311c60e0aae33e2606d5a7ae4a8
+  sha256: 7dd9f934a9c354cb5cedaf5cde02370c4e3d35fa29796fe615cee744c9fd2b8a
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250808023725-196437af15a6.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250906181147-ec11d92bb5d0.zip
 - dest: vendor/github.com/go-audio/audio
   sha256: 67d0a0608e5938058051a424e0ddddc351f14d053af4cc3b912eb0ef3b03d7a6
   strip-components: 3
@@ -83,15 +83,15 @@
   type: archive
   url: https://proxy.golang.org/github.com/supersonic-app/fyne-lyrics/@v/v0.0.0-20250614151306-b1880a70a410.zip
 - dest: vendor/github.com/supersonic-app/go-mpv
-  sha256: 2c192a51e380a1e745a5c4c719ef50c39615629113c279833e7271df0b5ac673
+  sha256: 3d95f8299a34f94d73b46daba4e3dc738eb7db97215621677c02122bec66f1fb
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/supersonic-app/go-mpv/@v/v0.1.0.zip
+  url: https://proxy.golang.org/github.com/supersonic-app/go-mpv/@v/v0.1.1-0.20250822102843-7a8cde5f5449.zip
 - dest: vendor/github.com/supersonic-app/go-subsonic
-  sha256: 9266989e7edc04a7edd5e5e37a5ad5627cc76ec32c13c07da98e6a4dc45377aa
+  sha256: 37a3be7911854d0754536ad72ddf96c505f289d38d39047290a5100d306970ab
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/supersonic-app/go-subsonic/@v/v0.0.0-20241224013245-9b2841f3711d.zip
+  url: https://proxy.golang.org/github.com/supersonic-app/go-subsonic/@v/v0.0.0-20250913173646-cf4fceb19b43.zip
 - dest: vendor/github.com/supersonic-app/go-upnpcast
   sha256: c8ca772617c21b62bf048cebd4e12f2e7d3e73cd97fd547234712faba9ee9b64
   strip-components: 3
@@ -103,25 +103,25 @@
   type: archive
   url: https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.6.zip
 - dest: vendor/golang.org/x/net
-  sha256: 9c746c215d695e80d6f4d1b1f1d55deaae5e451b4c031223af25f2b2f0757215
+  sha256: ac5b507ce23ade56ab75ba16eee5da96db1549a427018290c22acce501c261b9
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/golang.org/x/net/@v/v0.35.0.zip
+  url: https://proxy.golang.org/golang.org/x/net/@v/v0.38.0.zip
 - dest: vendor/golang.org/x/sys
-  sha256: f5214bfec98f00e5432da68bbece03e98600fa41594ed026556cbde8fcb6f7c9
+  sha256: 55f8255602c7a68419745943298893f0a83d6d6696199cfe6b644054669509f3
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/golang.org/x/sys/@v/v0.30.0.zip
+  url: https://proxy.golang.org/golang.org/x/sys/@v/v0.31.0.zip
 - dest: vendor/golang.org/x/term
-  sha256: 9d92c583d222113ac653848b3319ff559d2dba92f8232baff03d08fc9c0b8619
+  sha256: 485e455450101eb890764239e2bbb0962e8a0689a1e99fa689b47a69e73d04ed
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/golang.org/x/term/@v/v0.29.0.zip
+  url: https://proxy.golang.org/golang.org/x/term/@v/v0.30.0.zip
 - dest: vendor/golang.org/x/text
-  sha256: 939cb4c202aa8fa302f2ba6f9d29165ce82fce9c665d9a1a0bb0d9e51b79e6f5
+  sha256: 49043b8f569a76d094e6be46ee983df62ff93be4988f665f39f05da1b28b7102
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/golang.org/x/text/@v/v0.22.0.zip
+  url: https://proxy.golang.org/golang.org/x/text/@v/v0.23.0.zip
 - dest: vendor/al.essio.dev/pkg/shellescape
   sha256: 9bd1a52897da18bc38686340bda65cbbb628588214e9b3a5bd464adb3e6e2295
   strip-components: 3
@@ -193,10 +193,10 @@
   type: archive
   url: https://proxy.golang.org/github.com/go-gl/gl/@v/v0.0.0-20231021071112-07e5d0ea2e71.zip
 - dest: vendor/github.com/go-gl/glfw/v3.3/glfw
-  sha256: 0fdbe69760c5a250764ce983f01bac4259775e66aeb3be737eb76d9d14db92c4
+  sha256: d93bb9a420ccf11a3050094c4fe3a3780ffe6e969d17382b0a154aa0d11e0271
   strip-components: 5
   type: archive
-  url: https://proxy.golang.org/github.com/go-gl/glfw/v3.3/glfw/@v/v0.0.0-20240506104042-037f3cc74f2a.zip
+  url: https://proxy.golang.org/github.com/supersonic-app/go-glfw/v3.3/glfw/@v/v0.0.0-20250906235349-c09e5a2f6b75.zip
 - dest: vendor/github.com/go-text/render
   sha256: fdef31d3a3e71f8824dd5d034b2b80f305a241cfbcc42e33610f67f4b5101f25
   strip-components: 3

@@ -90,7 +90,7 @@ github.com/dweymouth/fyne-tooltip
 github.com/dweymouth/fyne-tooltip/internal
 github.com/dweymouth/fyne-tooltip/internal/shadow
 github.com/dweymouth/fyne-tooltip/widget
-# github.com/dweymouth/go-jellyfin v0.0.0-20250808023725-196437af15a6
+# github.com/dweymouth/go-jellyfin v0.0.0-20250906181147-ec11d92bb5d0
 ## explicit; go 1.20
 github.com/dweymouth/go-jellyfin
 # github.com/fogleman/gg v1.3.0
@@ -129,8 +129,8 @@ github.com/go-gl/gl/v2.1/gl
 github.com/go-gl/gl/v2.1/gl/KHR
 github.com/go-gl/gl/v3.1/gles2
 github.com/go-gl/gl/v3.1/gles2/KHR
-# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20240506104042-037f3cc74f2a
-## explicit; go 1.10
+# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20240506104042-037f3cc74f2a => github.com/supersonic-app/go-glfw/v3.3/glfw v0.0.0-20250906235349-c09e5a2f6b75
+## explicit; go 1.19
 github.com/go-gl/glfw/v3.3/glfw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps/glad
@@ -249,11 +249,11 @@ github.com/stretchr/testify/require
 # github.com/supersonic-app/fyne-lyrics v0.0.0-20250614151306-b1880a70a410
 ## explicit; go 1.19
 github.com/supersonic-app/fyne-lyrics
-# github.com/supersonic-app/go-mpv v0.1.0
+# github.com/supersonic-app/go-mpv v0.1.1-0.20250822102843-7a8cde5f5449
 ## explicit; go 1.19
 github.com/supersonic-app/go-mpv
-# github.com/supersonic-app/go-subsonic v0.0.0-20241224013245-9b2841f3711d
-## explicit; go 1.13
+# github.com/supersonic-app/go-subsonic v0.0.0-20250913173646-cf4fceb19b43
+## explicit; go 1.21
 github.com/supersonic-app/go-subsonic/subsonic
 # github.com/supersonic-app/go-upnpcast v0.0.0-20250330154256-b957204209a5
 ## explicit; go 1.21.9
@@ -291,8 +291,8 @@ golang.org/x/image/vector
 golang.org/x/image/vp8
 golang.org/x/image/vp8l
 golang.org/x/image/webp
-# golang.org/x/net v0.35.0
-## explicit; go 1.18
+# golang.org/x/net v0.38.0
+## explicit; go 1.23.0
 golang.org/x/net/bpf
 golang.org/x/net/html
 golang.org/x/net/html/atom
@@ -300,17 +300,17 @@ golang.org/x/net/html/charset
 golang.org/x/net/internal/iana
 golang.org/x/net/internal/socket
 golang.org/x/net/ipv4
-# golang.org/x/sys v0.30.0
-## explicit; go 1.18
+# golang.org/x/sys v0.31.0
+## explicit; go 1.23.0
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
-# golang.org/x/term v0.29.0
-## explicit; go 1.18
+# golang.org/x/term v0.30.0
+## explicit; go 1.23.0
 golang.org/x/term
-# golang.org/x/text v0.22.0
-## explicit; go 1.18
+# golang.org/x/text v0.23.0
+## explicit; go 1.23.0
 golang.org/x/text/collate
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap

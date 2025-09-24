@@ -151,7 +151,6 @@ modules:
       - --enable-libmp3lame
       - --enable-libopus
       - --enable-libtheora
-      - --enable-libv4l2
       - --enable-libvorbis
       - --enable-libvpx
     sources:
