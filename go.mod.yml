@@ -22,6 +22,11 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/cenkalti/dominantcolor/@v/v1.0.3.zip
+- dest: vendor/github.com/charlievieth/strcase
+  sha256: 2fa4cca3d79b0e49ae75d595f7cfc617aac50719cc4cae62a7909bf606f39aad
+  strip-components: 3
+  type: archive
+  url: https://proxy.golang.org/github.com/charlievieth/strcase/@v/v0.0.5.zip
 - dest: vendor/github.com/deluan/sanitize
   sha256: e133b4060d7557c74b09582b5fa04ed60374aa6fbfcabd94c3f6624c2d0ed4d2
   strip-components: 3
@@ -38,10 +43,10 @@
   type: archive
   url: https://proxy.golang.org/github.com/dweymouth/fyne-tooltip/@v/v0.3.0.zip
 - dest: vendor/github.com/dweymouth/go-jellyfin
-  sha256: 7dd9f934a9c354cb5cedaf5cde02370c4e3d35fa29796fe615cee744c9fd2b8a
+  sha256: c7d982bc8cbca71b7f52ad865f3375bec45885361943e824b85bb8ed00eee14d
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250906181147-ec11d92bb5d0.zip
+  url: https://proxy.golang.org/github.com/dweymouth/go-jellyfin/@v/v0.0.0-20250928223159-bd2fb9681ef5.zip
 - dest: vendor/github.com/go-audio/audio
   sha256: 67d0a0608e5938058051a424e0ddddc351f14d053af4cc3b912eb0ef3b03d7a6
   strip-components: 3
@@ -88,10 +93,10 @@
   type: archive
   url: https://proxy.golang.org/github.com/supersonic-app/go-mpv/@v/v0.1.1-0.20250822102843-7a8cde5f5449.zip
 - dest: vendor/github.com/supersonic-app/go-subsonic
-  sha256: 37a3be7911854d0754536ad72ddf96c505f289d38d39047290a5100d306970ab
+  sha256: c144d48ac0a458f80509bb626dabc490f7cdb22869ca6d0faa783b4610ed23be
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/supersonic-app/go-subsonic/@v/v0.0.0-20250913173646-cf4fceb19b43.zip
+  url: https://proxy.golang.org/github.com/supersonic-app/go-subsonic/@v/v0.0.0-20250917154259-2bbe535cf8f3.zip
 - dest: vendor/github.com/supersonic-app/go-upnpcast
   sha256: c8ca772617c21b62bf048cebd4e12f2e7d3e73cd97fd547234712faba9ee9b64
   strip-components: 3
