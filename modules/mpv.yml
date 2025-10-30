@@ -156,8 +156,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FFmpeg/FFmpeg.git
-        commit: 140fd653aed8cad774f991ba083e2d01e86420c7
-        tag: n8.0
+        commit: f893221c8d89cb798b829bebe71d55e1a3f242fd
+        tag: n7.1.2
         x-checker-data:
           type: git
           tag-pattern: ^n([\d.]{3,7})$
