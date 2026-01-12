@@ -14,7 +14,6 @@ config-opts:
   - -Dlibarchive=disabled
   - -Dlua=disabled
   - -Dpulse=enabled
-  - -Dsdl2=disabled
   - -Dshaderc=disabled
   - -Dvulkan=disabled
 cleanup:
@@ -24,8 +23,8 @@ cleanup:
   - '*.a'
 sources:
   - type: archive
-    url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.40.0.tar.gz
-    sha256: 10a0f4654f62140a6dd4d380dcf0bbdbdcf6e697556863dc499c296182f081a3
+    url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.41.0.tar.gz
+    sha256: ee21092a5ee427353392360929dc64645c54479aefdb5babc5cfbb5fad626209
     x-checker-data:
       type: anitya
       project-id: 5348
@@ -156,8 +155,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FFmpeg/FFmpeg.git
-        commit: db69d06eeeab4f46da15030a80d539efb4503ca8
-        tag: n7.1.1
+        commit: b08d7969c550a804a59511c7b83f2dd8cc0499b8
+        tag: n7.1
         x-checker-data:
           type: git
           tag-pattern: ^n([\d.]{3,7})$
