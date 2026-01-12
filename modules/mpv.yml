@@ -14,7 +14,6 @@ config-opts:
   - -Dlibarchive=disabled
   - -Dlua=disabled
   - -Dpulse=enabled
-  - -Dsdl2=disabled
   - -Dshaderc=disabled
   - -Dvulkan=disabled
 cleanup:
