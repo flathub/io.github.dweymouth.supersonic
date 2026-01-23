@@ -1,0 +1,57 @@
+name: mpv
+buildsystem: meson
+build-options:
+  cflags: -DNDEBUG=1
+config-opts:
+  - -Dlibmpv=true
+  - -Dbuild-date=false
+  - -Dpulse=enabled
+  - -Dalsa=enabled
+  - -Dmanpage-build=disabled
+  - -Dcdda=disabled
+  - -Ddvbin=disabled
+  - -Ddvdnav=disabled
+  - -Djavascript=disabled
+  - -Dlibarchive=disabled
+  - -Dlua=disabled
+  - -Dshaderc=disabled
+  - -Dvulkan=disabled
+sources:
+  - type: archive
+    url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.41.0.tar.gz
+    sha256: ee21092a5ee427353392360929dc64645c54479aefdb5babc5cfbb5fad626209
+    x-checker-data:
+      type: anitya
+      project-id: 5348
+      stable-only: true
+      url-template: https://github.com/mpv-player/mpv/archive/refs/tags/v$version.tar.gz
+
+modules:
+  - name: libass
+    config-opts:
+      - --disable-static
+    sources:
+      - type: archive
+        url: https://github.com/libass/libass/releases/download/0.17.4/libass-0.17.4.tar.xz
+        sha256: 78f1179b838d025e9c26e8fef33f8092f65611444ffa1bfc0cfac6a33511a05a
+        x-checker-data:
+          type: anitya
+          project-id: 1560
+          stable-only: true
+          url-template: https://github.com/libass/libass/releases/download/$version/libass-$version.tar.xz
+
+  - name: libplacebo
+    buildsystem: meson
+    config-opts:
+      - -Dvulkan=disabled
+      - -Dshaderc=disabled
+    sources:
+      - type: git
+        url: https://github.com/haasn/libplacebo.git
+        tag: v7.351.0
+        commit: 3188549fba13bbdf3a5a98de2a38c2e71f04e21e
+        x-checker-data:
+          type: git
+          tag-pattern: ^v([\d.]+)$
+      - type: patch
+        path: fix-libplacebo-vulkan-python-xml.patch
