@@ -3,7 +3,7 @@
 # https://github.com/search?q=org%3Aflathub+mpv&type=code
 app-id: io.github.dweymouth.supersonic
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
@@ -60,8 +60,15 @@ finish-args:
   ## cargo-cult from https://github.com/flathub/com.github.iwalton3.jellyfin-mpv-shim/blob/master/com.github.iwalton3.jellyfin-mpv-shim.json
   ##- --talk-name=org.gnome.SettingsDaemon.MediaKeys
 
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/doc
+  - '*.la'
+  - '*.a'
+
 modules:
-  - modules/mpv.yml
+  - mpv.yml
 
   # this is used to bundle the final supersonic command correctly and
   # provides the /app/bin/fyne command to the next module
