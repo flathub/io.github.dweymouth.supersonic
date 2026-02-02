@@ -1,7 +1,7 @@
-# al.essio.dev/pkg/shellescape v1.5.1
+# al.essio.dev/pkg/shellescape v1.6.0
 ## explicit; go 1.18
 al.essio.dev/pkg/shellescape
-# fyne.io/fyne/v2 v2.7.1 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20251115180245-c1288f7754ab
+# fyne.io/fyne/v2 v2.7.2 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20260131034631-53eb7128ebc8
 ## explicit; go 1.19
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -53,7 +53,7 @@ fyne.io/fyne/v2/storage/repository
 fyne.io/fyne/v2/test
 fyne.io/fyne/v2/theme
 fyne.io/fyne/v2/widget
-# fyne.io/systray v1.11.1-0.20250603113521-ca66a66d8b58
+# fyne.io/systray v1.12.0
 ## explicit; go 1.19
 fyne.io/systray
 fyne.io/systray/internal/generated/menu
@@ -61,10 +61,13 @@ fyne.io/systray/internal/generated/notifier
 # github.com/20after4/configdir v0.1.1
 ## explicit
 github.com/20after4/configdir
-# github.com/BurntSushi/toml v1.5.0
+# github.com/BurntSushi/toml v1.6.0
 ## explicit; go 1.18
 github.com/BurntSushi/toml
 github.com/BurntSushi/toml/internal
+# github.com/FyshOS/fancyfs v0.0.1
+## explicit; go 1.19
+github.com/FyshOS/fancyfs
 # github.com/Microsoft/go-winio v0.6.2
 ## explicit; go 1.21
 github.com/Microsoft/go-winio
@@ -72,7 +75,7 @@ github.com/Microsoft/go-winio/internal/fs
 github.com/Microsoft/go-winio/internal/socket
 github.com/Microsoft/go-winio/internal/stringbuffer
 github.com/Microsoft/go-winio/pkg/guid
-# github.com/boxes-ltd/imaging v1.7.1
+# github.com/boxes-ltd/imaging v1.7.4
 ## explicit; go 1.24.0
 github.com/boxes-ltd/imaging
 # github.com/cenkalti/dominantcolor v1.0.3
@@ -83,19 +86,19 @@ github.com/cenkalti/dominantcolor
 github.com/charlievieth/strcase
 github.com/charlievieth/strcase/internal/bytealg
 github.com/charlievieth/strcase/internal/tables
-# github.com/danieljoos/wincred v1.2.2
+# github.com/danieljoos/wincred v1.2.3
 ## explicit; go 1.18
 github.com/danieljoos/wincred
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/deluan/sanitize v0.0.0-20230310221930-6e18967d9fc1
+# github.com/deluan/sanitize v0.0.0-20241120162836-fdfd8fdfaa55
 ## explicit; go 1.17
 github.com/deluan/sanitize
 # github.com/dweymouth/fyne-advanced-list v0.0.0-20250211191927-58ea85eec72c
 ## explicit; go 1.19
 github.com/dweymouth/fyne-advanced-list
-# github.com/dweymouth/fyne-tooltip v0.3.0
+# github.com/dweymouth/fyne-tooltip v0.4.0
 ## explicit; go 1.21
 github.com/dweymouth/fyne-tooltip
 github.com/dweymouth/fyne-tooltip/internal
@@ -138,7 +141,7 @@ github.com/go-gl/gl/v2.1/gl
 github.com/go-gl/gl/v2.1/gl/KHR
 github.com/go-gl/gl/v3.1/gles2
 github.com/go-gl/gl/v3.1/gles2/KHR
-# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20240506104042-037f3cc74f2a => github.com/supersonic-app/go-glfw/v3.3/glfw v0.0.0-20250906235349-c09e5a2f6b75
+# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20250301202403-da16c1255728
 ## explicit; go 1.19
 github.com/go-gl/glfw/v3.3/glfw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps
@@ -150,8 +153,8 @@ github.com/go-gl/glfw/v3.3/glfw/glfw/src
 # github.com/go-text/render v0.2.0
 ## explicit; go 1.17
 github.com/go-text/render
-# github.com/go-text/typesetting v0.2.1
-## explicit; go 1.17
+# github.com/go-text/typesetting v0.3.3-0.20260117213729-06c64e10eb0b
+## explicit; go 1.19
 github.com/go-text/typesetting/di
 github.com/go-text/typesetting/font
 github.com/go-text/typesetting/font/cff
@@ -164,12 +167,12 @@ github.com/go-text/typesetting/language
 github.com/go-text/typesetting/segmenter
 github.com/go-text/typesetting/shaping
 github.com/go-text/typesetting/unicodedata
-# github.com/godbus/dbus/v5 v5.1.0
-## explicit; go 1.12
+# github.com/godbus/dbus/v5 v5.2.2
+## explicit; go 1.20
 github.com/godbus/dbus/v5
 github.com/godbus/dbus/v5/introspect
 github.com/godbus/dbus/v5/prop
-# github.com/google/uuid v1.3.0
+# github.com/google/uuid v1.6.0
 ## explicit
 github.com/google/uuid
 # github.com/h2non/filetype v1.1.3
@@ -182,7 +185,7 @@ github.com/h2non/filetype/types
 ## explicit; go 1.18
 github.com/hack-pad/go-indexeddb/idb
 github.com/hack-pad/go-indexeddb/idb/internal/jscache
-# github.com/hack-pad/safejs v0.1.0
+# github.com/hack-pad/safejs v0.1.1
 ## explicit; go 1.18
 github.com/hack-pad/safejs
 github.com/hack-pad/safejs/internal/catch
@@ -190,8 +193,8 @@ github.com/hack-pad/safejs/internal/stackerr
 # github.com/hashicorp/go-cleanhttp v0.5.2
 ## explicit; go 1.13
 github.com/hashicorp/go-cleanhttp
-# github.com/hashicorp/go-retryablehttp v0.7.7
-## explicit; go 1.19
+# github.com/hashicorp/go-retryablehttp v0.7.8
+## explicit; go 1.23
 github.com/hashicorp/go-retryablehttp
 # github.com/jeandeaual/go-locale v0.0.0-20250612000132-0ef82f21eade
 ## explicit; go 1.18
@@ -199,22 +202,22 @@ github.com/jeandeaual/go-locale
 # github.com/jsummers/gobmp v0.0.0-20230614200233-a9de23ed2e25
 ## explicit
 github.com/jsummers/gobmp
-# github.com/koron/go-ssdp v0.0.5
-## explicit; go 1.21.9
+# github.com/koron/go-ssdp v0.1.0
+## explicit; go 1.24.0
 github.com/koron/go-ssdp
 github.com/koron/go-ssdp/internal/multicast
 github.com/koron/go-ssdp/internal/ssdplog
 # github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 ## explicit
 github.com/nfnt/resize
-# github.com/nicksnyder/go-i18n/v2 v2.5.1
-## explicit; go 1.18
+# github.com/nicksnyder/go-i18n/v2 v2.6.1
+## explicit; go 1.24.0
 github.com/nicksnyder/go-i18n/v2/i18n
 github.com/nicksnyder/go-i18n/v2/i18n/template
 github.com/nicksnyder/go-i18n/v2/internal
 github.com/nicksnyder/go-i18n/v2/internal/plural
-# github.com/pelletier/go-toml/v2 v2.0.8
-## explicit; go 1.16
+# github.com/pelletier/go-toml/v2 v2.2.4
+## explicit; go 1.21.0
 github.com/pelletier/go-toml/v2
 github.com/pelletier/go-toml/v2/internal/characters
 github.com/pelletier/go-toml/v2/internal/danger
@@ -257,18 +260,18 @@ github.com/supersonic-app/fyne-lyrics
 # github.com/supersonic-app/go-mpv v0.1.1-0.20250822102843-7a8cde5f5449
 ## explicit; go 1.19
 github.com/supersonic-app/go-mpv
-# github.com/supersonic-app/go-subsonic v0.0.0-20250917154259-2bbe535cf8f3
+# github.com/supersonic-app/go-subsonic v0.0.0-20260125165421-1efaa048a150
 ## explicit; go 1.21
 github.com/supersonic-app/go-subsonic/subsonic
-# github.com/supersonic-app/go-upnpcast v0.0.0-20250330154256-b957204209a5
-## explicit; go 1.21.9
+# github.com/supersonic-app/go-upnpcast v0.1.0
+## explicit; go 1.22.0
 github.com/supersonic-app/go-upnpcast/device
 github.com/supersonic-app/go-upnpcast/internal/utils
 github.com/supersonic-app/go-upnpcast/services
 github.com/supersonic-app/go-upnpcast/services/avtransport
 github.com/supersonic-app/go-upnpcast/services/renderingcontrol
-# github.com/yuin/goldmark v1.7.8
-## explicit; go 1.19
+# github.com/yuin/goldmark v1.7.16
+## explicit; go 1.22
 github.com/yuin/goldmark
 github.com/yuin/goldmark/ast
 github.com/yuin/goldmark/parser
@@ -280,7 +283,7 @@ github.com/yuin/goldmark/util
 ## explicit; go 1.18
 github.com/zalando/go-keyring
 github.com/zalando/go-keyring/secret_service
-# golang.org/x/image v0.32.0
+# golang.org/x/image v0.35.0
 ## explicit; go 1.24.0
 golang.org/x/image/bmp
 golang.org/x/image/ccitt
@@ -295,8 +298,8 @@ golang.org/x/image/vector
 golang.org/x/image/vp8
 golang.org/x/image/vp8l
 golang.org/x/image/webp
-# golang.org/x/net v0.38.0
-## explicit; go 1.23.0
+# golang.org/x/net v0.49.0
+## explicit; go 1.24.0
 golang.org/x/net/bpf
 golang.org/x/net/html
 golang.org/x/net/html/atom
@@ -304,17 +307,17 @@ golang.org/x/net/html/charset
 golang.org/x/net/internal/iana
 golang.org/x/net/internal/socket
 golang.org/x/net/ipv4
-# golang.org/x/sys v0.31.0
-## explicit; go 1.23.0
+# golang.org/x/sys v0.40.0
+## explicit; go 1.24.0
 golang.org/x/sys/cpu
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
-# golang.org/x/term v0.30.0
-## explicit; go 1.23.0
+# golang.org/x/term v0.39.0
+## explicit; go 1.24.0
 golang.org/x/term
-# golang.org/x/text v0.30.0
+# golang.org/x/text v0.33.0
 ## explicit; go 1.24.0
 golang.org/x/text/collate
 golang.org/x/text/encoding
@@ -340,3 +343,4 @@ golang.org/x/text/unicode/norm
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
+# github.com/go-gl/glfw/v3.3/glfw v0.0.0-20240506104042-037f3cc74f2a => github.com/supersonic-app/go-glfw/v3.3/glfw v0.0.0-20250906235349-c09e5a2f6b75
