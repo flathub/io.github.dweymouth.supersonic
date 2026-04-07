@@ -1,6 +1,3 @@
-# al.essio.dev/pkg/shellescape v1.6.0
-## explicit; go 1.18
-al.essio.dev/pkg/shellescape
 # fyne.io/fyne/v2 v2.7.2 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20260131034631-53eb7128ebc8
 ## explicit; go 1.19
 fyne.io/fyne/v2
@@ -260,7 +257,7 @@ github.com/supersonic-app/fyne-lyrics
 # github.com/supersonic-app/go-mpv v0.1.1-0.20250822102843-7a8cde5f5449
 ## explicit; go 1.19
 github.com/supersonic-app/go-mpv
-# github.com/supersonic-app/go-subsonic v0.0.0-20260311143343-43acfbb184d2
+# github.com/supersonic-app/go-subsonic v0.0.0-20260405192806-29d84070230a
 ## explicit; go 1.21
 github.com/supersonic-app/go-subsonic/subsonic
 # github.com/supersonic-app/go-upnpcast v0.1.0
@@ -279,9 +276,10 @@ github.com/yuin/goldmark/renderer
 github.com/yuin/goldmark/renderer/html
 github.com/yuin/goldmark/text
 github.com/yuin/goldmark/util
-# github.com/zalando/go-keyring v0.2.6
+# github.com/zalando/go-keyring v0.2.8
 ## explicit; go 1.18
 github.com/zalando/go-keyring
+github.com/zalando/go-keyring/internal/shellescape
 github.com/zalando/go-keyring/secret_service
 # golang.org/x/image v0.36.0
 ## explicit; go 1.24.0
