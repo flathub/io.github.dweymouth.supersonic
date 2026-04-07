@@ -98,20 +98,20 @@
   type: archive
   url: https://proxy.golang.org/github.com/supersonic-app/go-mpv/@v/v0.1.1-0.20250822102843-7a8cde5f5449.zip
 - dest: vendor/github.com/supersonic-app/go-subsonic
-  sha256: 857b08ea294808c0cbb1bdf0fd66df7c4d06904d7fccf51bf3f62db97535dbd9
+  sha256: 712dd69ec4b5e101d51cf5f716e1b4517dfda0db80276eab6efcd735dbd188a6
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/supersonic-app/go-subsonic/@v/v0.0.0-20260311143343-43acfbb184d2.zip
+  url: https://proxy.golang.org/github.com/supersonic-app/go-subsonic/@v/v0.0.0-20260405192806-29d84070230a.zip
 - dest: vendor/github.com/supersonic-app/go-upnpcast
   sha256: ea2fecadbf6c1356d852ea71e6f1da69880abb65d83d617de256a8fb1001d2fb
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/github.com/supersonic-app/go-upnpcast/@v/v0.1.0.zip
 - dest: vendor/github.com/zalando/go-keyring
-  sha256: 8dea1c2777e7275317e5011f54cddb252c017a7e152558c4fcac84fa5101cf4e
+  sha256: af9d1310d6e1eaadb6c975f2f9b1c22c8a2d1ea2497645f5ee62eac26472c97a
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.6.zip
+  url: https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.8.zip
 - dest: vendor/golang.org/x/net
   sha256: 6220d72153daf7606758a35790cbf0d15fd1c0bad584ec526bee32e7a463d3e9
   strip-components: 3
@@ -132,11 +132,6 @@
   strip-components: 3
   type: archive
   url: https://proxy.golang.org/golang.org/x/text/@v/v0.34.0.zip
-- dest: vendor/al.essio.dev/pkg/shellescape
-  sha256: 3c25159c67394c5d2fe4fc4e9e77aad41056fecf249030d16c6399ad18158fc2
-  strip-components: 3
-  type: archive
-  url: https://proxy.golang.org/al.essio.dev/pkg/shellescape/@v/v1.6.0.zip
 - dest: vendor/fyne.io/systray
   sha256: 9d4250b8bf8726ecd9c01fe5c317df91fa4a50bfe54e146b74005c2d2061eea2
   strip-components: 2
