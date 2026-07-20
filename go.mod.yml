@@ -28,10 +28,10 @@
   type: archive
   url: https://proxy.golang.org/github.com/cenkalti/dominantcolor/@v/v1.0.3.zip
 - dest: vendor/github.com/charlievieth/strcase
-  sha256: a6a520d516a5987c1789b92a73c06533b1817545d819c5e2060beddf9f4e98cb
+  sha256: 2fa4cca3d79b0e49ae75d595f7cfc617aac50719cc4cae62a7909bf606f39aad
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/charlievieth/strcase/@v/v0.0.6.zip
+  url: https://proxy.golang.org/github.com/charlievieth/strcase/@v/v0.0.5.zip
 - dest: vendor/github.com/deluan/sanitize
   sha256: f6151804dc65f10b9f11197f5e0db722312dbf7dc44232985538439f5d32efcb
   strip-components: 3

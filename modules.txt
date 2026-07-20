@@ -85,7 +85,7 @@ github.com/boxes-ltd/imaging
 # github.com/cenkalti/dominantcolor v1.0.3
 ## explicit; go 1.20
 github.com/cenkalti/dominantcolor
-# github.com/charlievieth/strcase v0.0.6
+# github.com/charlievieth/strcase v0.0.5
 ## explicit; go 1.19
 github.com/charlievieth/strcase
 github.com/charlievieth/strcase/internal/bytealg
