@@ -1,4 +1,4 @@
-# fyne.io/fyne/v2 v2.7.2 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20260707001049-35cc7c250c08
+# fyne.io/fyne/v2 v2.8.0 => github.com/dweymouth/fyne/v2 v2.3.0-rc1.0.20260809142433-9ca176ed4373
 ## explicit; go 1.22.0
 fyne.io/fyne/v2
 fyne.io/fyne/v2/app
@@ -32,8 +32,10 @@ fyne.io/fyne/v2/internal/driver/mobile/event/size
 fyne.io/fyne/v2/internal/driver/mobile/event/touch
 fyne.io/fyne/v2/internal/driver/mobile/gl
 fyne.io/fyne/v2/internal/driver/mobile/mobileinit
+fyne.io/fyne/v2/internal/goos
 fyne.io/fyne/v2/internal/metadata
 fyne.io/fyne/v2/internal/painter
+fyne.io/fyne/v2/internal/painter/geom
 fyne.io/fyne/v2/internal/painter/gl
 fyne.io/fyne/v2/internal/painter/software
 fyne.io/fyne/v2/internal/repository
@@ -85,7 +87,7 @@ github.com/boxes-ltd/imaging
 # github.com/cenkalti/dominantcolor v1.0.3
 ## explicit; go 1.20
 github.com/cenkalti/dominantcolor
-# github.com/charlievieth/strcase v0.0.5
+# github.com/charlievieth/strcase v0.0.6
 ## explicit; go 1.19
 github.com/charlievieth/strcase
 github.com/charlievieth/strcase/internal/bytealg
@@ -112,12 +114,9 @@ github.com/dweymouth/fyne-tooltip
 github.com/dweymouth/fyne-tooltip/internal
 github.com/dweymouth/fyne-tooltip/internal/shadow
 github.com/dweymouth/fyne-tooltip/widget
-# github.com/dweymouth/go-jellyfin v0.0.0-20250928223159-bd2fb9681ef5
+# github.com/dweymouth/go-jellyfin v0.0.0-20260422144755-ac6d50639b1a
 ## explicit; go 1.20
 github.com/dweymouth/go-jellyfin
-# github.com/fredbi/uri v1.1.1
-## explicit; go 1.19
-github.com/fredbi/uri
 # github.com/fsnotify/fsnotify v1.9.0
 ## explicit; go 1.17
 github.com/fsnotify/fsnotify
@@ -149,13 +148,14 @@ github.com/go-gl/gl/v2.1/gl
 github.com/go-gl/gl/v2.1/gl/KHR
 github.com/go-gl/gl/v3.1/gles2
 github.com/go-gl/gl/v3.1/gles2/KHR
-# github.com/go-gl/glfw/v3.4/glfw v0.1.0-pre.1.0.20260627172858-eb9c312d9d47
+# github.com/go-gl/glfw/v3.4/glfw v0.1.0-pre.1.0.20260707082822-2a407d02d01a
 ## explicit; go 1.19
 github.com/go-gl/glfw/v3.4/glfw
 github.com/go-gl/glfw/v3.4/glfw/glfw/deps
 github.com/go-gl/glfw/v3.4/glfw/glfw/deps/glad
 github.com/go-gl/glfw/v3.4/glfw/glfw/deps/mingw
 github.com/go-gl/glfw/v3.4/glfw/glfw/deps/wayland
+github.com/go-gl/glfw/v3.4/glfw/glfw/include
 github.com/go-gl/glfw/v3.4/glfw/glfw/include/GLFW
 github.com/go-gl/glfw/v3.4/glfw/glfw/src
 # github.com/go-text/render v0.2.1
