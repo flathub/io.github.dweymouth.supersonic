@@ -59,6 +59,9 @@ finish-args:
   # on their own: https://github.com/dweymouth/supersonic/issues/56
   ## cargo-cult from https://github.com/flathub/com.github.iwalton3.jellyfin-mpv-shim/blob/master/com.github.iwalton3.jellyfin-mpv-shim.json
   ##- --talk-name=org.gnome.SettingsDaemon.MediaKeys
+  #
+  # Required for inhibiting screensaver from 'Now Playing' page
+  - --talk-name=org.freedesktop.ScreenSaver
 
 cleanup:
   - /include
