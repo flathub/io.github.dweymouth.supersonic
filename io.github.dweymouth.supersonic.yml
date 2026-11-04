@@ -3,7 +3,7 @@
 # https://github.com/search?q=org%3Aflathub+mpv&type=code
 app-id: io.github.dweymouth.supersonic
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
@@ -12,10 +12,8 @@ rename-desktop-file: Supersonic.desktop
 rename-icon: Supersonic
 
 finish-args:
-  # X11 + XShm access
   - --socket=x11
   - --share=ipc
-  # video acceleration in X11
   - --device=dri
   #
   # Upstream doesn't support Wayland yet, but when it does, this is
