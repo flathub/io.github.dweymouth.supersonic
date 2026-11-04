@@ -61,6 +61,7 @@ finish-args:
   ##- --talk-name=org.gnome.SettingsDaemon.MediaKeys
   #
   # Required for inhibiting screensaver from 'Now Playing' page
+  # Tracked in https://github.com/supersonic-app/supersonic/issues/1057
   - --talk-name=org.freedesktop.ScreenSaver
 
 cleanup:
